@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Backend.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:Backend.WebApi.Controllers.AreasController.GetAllAreas">
+            <summary>
+            Shows all Areas.
+            </summary>
+        </member>
+        <member name="M:Backend.WebApi.Controllers.AreasController.Get(System.Guid)">
+            <summary>
+            Shows a specific Area.
+            </summary>
+        </member>
+        <member name="M:Backend.WebApi.Controllers.DataImportController.ImportData(System.String,System.String,System.Collections.Generic.List{IMMRequestDataImport.domain.ImportField})">
+            <summary>
+            Import Data
+            </summary>
+        </member>
+        <member name="M:Backend.WebApi.Controllers.DataImportController.getAll(System.String)">
+            <summary>
+            Get all dll infos with fields
+            </summary>
+        </member>
+        <member name="M:Backend.WebApi.Controllers.RequestsController.Post(Backend.WebApi.Models.RequestDT)">
+            <summary>
+            Creates a new Request.
+            </summary>
+        </member>
+        <member name="M:Backend.WebApi.Controllers.RequestsController.Get(System.Guid)">
+            <summary>
+            Shows a specific Request.
+            </summary>
+        </member>
+        <member name="M:Backend.WebApi.Controllers.RequestsController.GetAll(System.String)">
+            <summary>
+            Shows all Requests.
+            </summary>
+        </member>
+        <member name="M:Backend.WebApi.Controllers.RequestsController.GetReportA(System.String,System.String,System.String,System.String)">
+            <summary>
+            Shows Applicant requests for a specific date range.
+            </summary>
+        </member>
+        <member name="M:Backend.WebApi.Controllers.RequestsController.Put(System.String,System.Guid,Backend.WebApi.Models.RequestStatusDT)">
+            <summary>
+            Edits Request status and description.
+            </summary>
+        </member>
+        <member name="M:Backend.WebApi.Controllers.SessionsController.Login(Backend.WebApi.Models.LoginDT)">
+            <summary>
+            Login
+            </summary>
+        </member>
+        <member name="M:Backend.WebApi.Controllers.SessionsController.Logout(System.Guid)">
+            <summary>
+            Logout
+            </summary>
+        </member>
+        <member name="M:Backend.WebApi.Controllers.TopicsController.Get(System.Guid)">
+            <summary>
+            Shows a specific Topic.
+            </summary>
+        </member>
+        <member name="M:Backend.WebApi.Controllers.TopicTypesController.Post(System.String,Backend.WebApi.Models.TopicTypeDT)">
+            <summary>
+            Creates a new TopicType.
+            </summary>
+        </member>
+        <member name="M:Backend.WebApi.Controllers.TopicTypesController.Get(System.Guid)">
+            <summary>
+            Shows a specific TopicType.
+            </summary>
+        </member>
+        <member name="M:Backend.WebApi.Controllers.TopicTypesController.GetAll(System.String)">
+            <summary>
+            Shows all TopicTypes.
+            </summary>
+        </member>
+        <member name="M:Backend.WebApi.Controllers.TopicTypesController.GetReportB(System.String,System.String,System.String)">
+            <summary>
+            Generates Report B
+            </summary>
+        </member>
+        <member name="M:Backend.WebApi.Controllers.TopicTypesController.Delete(System.String,System.Guid)">
+            <summary>
+            Deletes a specific TopicType.
+            </summary>
+        </member>
+        <member name="M:Backend.WebApi.Controllers.UsersController.Post(System.String,Backend.WebApi.Models.UserDT)">
+            <summary>
+            Creates a new User.
+            </summary>        
+        </member>
+        <member name="M:Backend.WebApi.Controllers.UsersController.Get(System.String,System.Guid)">
+            <summary>
+            Shows a specific User.
+            </summary>         
+        </member>
+        <member name="M:Backend.WebApi.Controllers.UsersController.GetAll(System.String)">
+            <summary>
+            Shows all Users.
+            </summary>     
+        </member>
+        <member name="M:Backend.WebApi.Controllers.UsersController.Put(System.String,System.Guid,Backend.WebApi.Models.UserDT)">
+            <summary>
+            Edits a specific User.
+            </summary>  
+        </member>
+        <member name="M:Backend.WebApi.Controllers.UsersController.Delete(System.String,System.Guid)">
+            <summary>
+            Deletes a specific User.
+            </summary>  
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,5638 @@
+{
+  "Backend.BusinessLogic.dll": {
+    "d:\\Google Drive\\Facultad\\ORT\\6-Diseño de Aplicaciones 2\\Tarea\\Backend\\Backend.BusinessLogic\\AdditionalFieldDataLogic.cs": {
+      "Backend.BusinessLogic.AdditionalFieldDataLogic": {
+        "Backend.Domain.AdditionalFieldData Backend.BusinessLogic.AdditionalFieldDataLogic::Create(Backend.Domain.AdditionalFieldData)": {
+          "Lines": {
+            "23": 14,
+            "24": 14,
+            "25": 5,
+            "26": 5,
+            "27": 5,
+            "28": 5
+          },
+          "Branches": []
+        },
+        "Backend.Domain.AdditionalFieldData Backend.BusinessLogic.AdditionalFieldDataLogic::Get(System.Guid)": {
+          "Lines": {
+            "31": 1,
+            "32": 1,
+            "33": 1
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<Backend.Domain.AdditionalFieldData> Backend.BusinessLogic.AdditionalFieldDataLogic::GetAll()": {
+          "Lines": {
+            "36": 1,
+            "37": 1,
+            "38": 1
+          },
+          "Branches": []
+        },
+        "System.Void Backend.BusinessLogic.AdditionalFieldDataLogic::Remove(System.Guid)": {
+          "Lines": {
+            "41": 1,
+            "42": 1,
+            "43": 1,
+            "44": 1,
+            "45": 1
+          },
+          "Branches": []
+        },
+        "System.Void Backend.BusinessLogic.AdditionalFieldDataLogic::Validate(Backend.Domain.AdditionalFieldData)": {
+          "Lines": {
+            "48": 14,
+            "49": 14,
+            "50": 13,
+            "51": 13,
+            "52": 13,
+            "53": 2,
+            "54": 2,
+            "55": 2,
+            "57": 11,
+            "58": 2,
+            "59": 2,
+            "60": 2,
+            "62": 9,
+            "63": 4,
+            "64": 4,
+            "65": 4,
+            "67": 5,
+            "68": 4,
+            "69": 4,
+            "70": 4,
+            "71": 5
+          },
+          "Branches": [
+            {
+              "Line": 52,
+              "Offset": 52,
+              "EndOffset": 54,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 12
+            },
+            {
+              "Line": 52,
+              "Offset": 61,
+              "EndOffset": 63,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 12
+            },
+            {
+              "Line": 52,
+              "Offset": 52,
+              "EndOffset": 78,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 52,
+              "Offset": 61,
+              "EndOffset": 78,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            },
+            {
+              "Line": 52,
+              "Offset": 81,
+              "EndOffset": 83,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 2
+            },
+            {
+              "Line": 52,
+              "Offset": 81,
+              "EndOffset": 129,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 11
+            },
+            {
+              "Line": 57,
+              "Offset": 141,
+              "EndOffset": 143,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 2
+            },
+            {
+              "Line": 57,
+              "Offset": 141,
+              "EndOffset": 203,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 9
+            },
+            {
+              "Line": 62,
+              "Offset": 215,
+              "EndOffset": 217,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 4
+            },
+            {
+              "Line": 62,
+              "Offset": 215,
+              "EndOffset": 295,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 5
+            },
+            {
+              "Line": 67,
+              "Offset": 313,
+              "EndOffset": 315,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 4
+            },
+            {
+              "Line": 67,
+              "Offset": 313,
+              "EndOffset": 341,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 5
+            }
+          ]
+        },
+        "System.Void Backend.BusinessLogic.AdditionalFieldDataLogic::ValidateAdditionalField(Backend.Domain.AdditionalFieldData)": {
+          "Lines": {
+            "74": 27,
+            "75": 27,
+            "76": 1,
+            "77": 1,
+            "79": 26
+          },
+          "Branches": [
+            {
+              "Line": 75,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 75,
+              "Offset": 12,
+              "EndOffset": 26,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 26
+            }
+          ]
+        },
+        "System.Boolean Backend.BusinessLogic.AdditionalFieldDataLogic::IsValidData(Backend.Domain.AdditionalFieldData)": {
+          "Lines": {
+            "82": 11,
+            "83": 11,
+            "84": 0,
+            "85": 0,
+            "87": 11,
+            "88": 4,
+            "90": 4,
+            "91": 8,
+            "93": 7,
+            "94": 4,
+            "96": 4,
+            "97": 8,
+            "99": 3,
+            "100": 11
+          },
+          "Branches": [
+            {
+              "Line": 83,
+              "Offset": 24,
+              "EndOffset": 26,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 85,
+              "Offset": 50,
+              "EndOffset": 52,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 85,
+              "Offset": 50,
+              "EndOffset": 77,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 83,
+              "Offset": 24,
+              "EndOffset": 84,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 11
+            },
+            {
+              "Line": 87,
+              "Offset": 107,
+              "EndOffset": 109,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 4
+            },
+            {
+              "Line": 87,
+              "Offset": 107,
+              "EndOffset": 151,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 7
+            },
+            {
+              "Line": 93,
+              "Offset": 176,
+              "EndOffset": 178,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 4
+            },
+            {
+              "Line": 93,
+              "Offset": 176,
+              "EndOffset": 222,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 3
+            }
+          ]
+        },
+        "System.Boolean Backend.BusinessLogic.AdditionalFieldDataLogic::IsValidPossibleValues(Backend.Domain.AdditionalFieldData)": {
+          "Lines": {
+            "103": 9,
+            "104": 9,
+            "105": 9,
+            "106": 8,
+            "107": 8,
+            "108": 3,
+            "109": 15,
+            "110": 3,
+            "111": 3,
+            "112": 3,
+            "113": 3,
+            "114": 3,
+            "115": 3,
+            "116": 3,
+            "117": 5,
+            "118": 2,
+            "119": 10,
+            "120": 2,
+            "121": 2,
+            "122": 2,
+            "123": 2,
+            "124": 2,
+            "125": 2,
+            "126": 2,
+            "127": 3,
+            "128": 3,
+            "129": 17,
+            "130": 4,
+            "131": 4,
+            "132": 10,
+            "133": 4,
+            "134": 3,
+            "135": 8,
+            "136": 9,
+            "137": 9
+          },
+          "Branches": [
+            {
+              "Line": 105,
+              "Offset": 14,
+              "EndOffset": 16,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 8
+            },
+            {
+              "Line": 105,
+              "Offset": 14,
+              "EndOffset": 33,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 105,
+              "Offset": 36,
+              "EndOffset": 41,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 8
+            },
+            {
+              "Line": 107,
+              "Offset": 65,
+              "EndOffset": 70,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 3
+            },
+            {
+              "Line": 109,
+              "Offset": 194,
+              "EndOffset": 84,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 3
+            },
+            {
+              "Line": 114,
+              "Offset": 141,
+              "EndOffset": 143,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 3
+            },
+            {
+              "Line": 114,
+              "Offset": 157,
+              "EndOffset": 159,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 2
+            },
+            {
+              "Line": 114,
+              "Offset": 141,
+              "EndOffset": 180,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 1
+            },
+            {
+              "Line": 114,
+              "Offset": 157,
+              "EndOffset": 180,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 1
+            },
+            {
+              "Line": 109,
+              "Offset": 194,
+              "EndOffset": 196,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 3
+            },
+            {
+              "Line": 107,
+              "Offset": 65,
+              "EndOffset": 202,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 5
+            },
+            {
+              "Line": 117,
+              "Offset": 227,
+              "EndOffset": 229,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 2
+            },
+            {
+              "Line": 119,
+              "Offset": 336,
+              "EndOffset": 244,
+              "Path": 1,
+              "Ordinal": 19,
+              "Hits": 2
+            },
+            {
+              "Line": 124,
+              "Offset": 302,
+              "EndOffset": 304,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 2
+            },
+            {
+              "Line": 124,
+              "Offset": 308,
+              "EndOffset": 310,
+              "Path": 0,
+              "Ordinal": 16,
+              "Hits": 1
+            },
+            {
+              "Line": 124,
+              "Offset": 302,
+              "EndOffset": 321,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 1
+            },
+            {
+              "Line": 124,
+              "Offset": 308,
+              "EndOffset": 321,
+              "Path": 1,
+              "Ordinal": 17,
+              "Hits": 1
+            },
+            {
+              "Line": 119,
+              "Offset": 336,
+              "EndOffset": 338,
+              "Path": 0,
+              "Ordinal": 18,
+              "Hits": 2
+            },
+            {
+              "Line": 117,
+              "Offset": 227,
+              "EndOffset": 341,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 3
+            },
+            {
+              "Line": 127,
+              "Offset": 366,
+              "EndOffset": 368,
+              "Path": 0,
+              "Ordinal": 20,
+              "Hits": 3
+            },
+            {
+              "Line": 129,
+              "Offset": 461,
+              "EndOffset": 383,
+              "Path": 1,
+              "Ordinal": 25,
+              "Hits": 4
+            },
+            {
+              "Line": 132,
+              "Offset": 422,
+              "EndOffset": 424,
+              "Path": 0,
+              "Ordinal": 22,
+              "Hits": 4
+            },
+            {
+              "Line": 132,
+              "Offset": 422,
+              "EndOffset": 446,
+              "Path": 1,
+              "Ordinal": 23,
+              "Hits": 0
+            },
+            {
+              "Line": 129,
+              "Offset": 461,
+              "EndOffset": 463,
+              "Path": 0,
+              "Ordinal": 24,
+              "Hits": 3
+            },
+            {
+              "Line": 127,
+              "Offset": 366,
+              "EndOffset": 464,
+              "Path": 1,
+              "Ordinal": 21,
+              "Hits": 8
+            },
+            {
+              "Line": 105,
+              "Offset": 36,
+              "EndOffset": 465,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 9
+            }
+          ]
+        },
+        "System.Void Backend.BusinessLogic.AdditionalFieldDataLogic::.ctor(Backend.Repository.Interface.IRepository`1<Backend.Domain.AdditionalFieldData>,Backend.BusinessLogic.Interface.ILogic`1<Backend.Domain.AdditionalField>)": {
+          "Lines": {
+            "15": 17,
+            "16": 17,
+            "17": 17,
+            "18": 17,
+            "19": 17,
+            "20": 17
+          },
+          "Branches": []
+        }
+      }
+    },
+    "d:\\Google Drive\\Facultad\\ORT\\6-Diseño de Aplicaciones 2\\Tarea\\Backend\\Backend.BusinessLogic\\AdditionalFieldLogic.cs": {
+      "Backend.BusinessLogic.AdditionalFieldLogic": {
+        "Backend.Domain.AdditionalField Backend.BusinessLogic.AdditionalFieldLogic::Create(Backend.Domain.AdditionalField)": {
+          "Lines": {
+            "21": 11,
+            "22": 11,
+            "23": 3,
+            "24": 3,
+            "25": 3,
+            "26": 3
+          },
+          "Branches": []
+        },
+        "Backend.Domain.AdditionalField Backend.BusinessLogic.AdditionalFieldLogic::Get(System.Guid)": {
+          "Lines": {
+            "29": 1,
+            "30": 1,
+            "31": 1
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<Backend.Domain.AdditionalField> Backend.BusinessLogic.AdditionalFieldLogic::GetAll()": {
+          "Lines": {
+            "34": 1,
+            "35": 1,
+            "36": 1
+          },
+          "Branches": []
+        },
+        "System.Void Backend.BusinessLogic.AdditionalFieldLogic::Remove(System.Guid)": {
+          "Lines": {
+            "39": 1,
+            "40": 1,
+            "41": 1,
+            "42": 1,
+            "43": 1
+          },
+          "Branches": []
+        },
+        "System.Void Backend.BusinessLogic.AdditionalFieldLogic::Validate(Backend.Domain.AdditionalField)": {
+          "Lines": {
+            "46": 11,
+            "47": 11,
+            "48": 1,
+            "49": 1,
+            "51": 10,
+            "52": 1,
+            "53": 1,
+            "55": 9,
+            "56": 1,
+            "57": 1,
+            "59": 8,
+            "60": 1,
+            "61": 1,
+            "62": 1,
+            "63": 8,
+            "64": 3
+          },
+          "Branches": [
+            {
+              "Line": 47,
+              "Offset": 14,
+              "EndOffset": 16,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 47,
+              "Offset": 14,
+              "EndOffset": 28,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 10
+            },
+            {
+              "Line": 51,
+              "Offset": 41,
+              "EndOffset": 43,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 51,
+              "Offset": 41,
+              "EndOffset": 55,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 9
+            },
+            {
+              "Line": 55,
+              "Offset": 71,
+              "EndOffset": 73,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 8
+            },
+            {
+              "Line": 55,
+              "Offset": 89,
+              "EndOffset": 91,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 6
+            },
+            {
+              "Line": 55,
+              "Offset": 107,
+              "EndOffset": 109,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 2
+            },
+            {
+              "Line": 55,
+              "Offset": 71,
+              "EndOffset": 127,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 7
+            },
+            {
+              "Line": 55,
+              "Offset": 89,
+              "EndOffset": 127,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 7
+            },
+            {
+              "Line": 55,
+              "Offset": 107,
+              "EndOffset": 127,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 7
+            },
+            {
+              "Line": 55,
+              "Offset": 130,
+              "EndOffset": 132,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 1
+            },
+            {
+              "Line": 55,
+              "Offset": 130,
+              "EndOffset": 144,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 8
+            },
+            {
+              "Line": 59,
+              "Offset": 162,
+              "EndOffset": 164,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 1
+            },
+            {
+              "Line": 59,
+              "Offset": 162,
+              "EndOffset": 174,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 8
+            }
+          ]
+        },
+        "System.Void Backend.BusinessLogic.AdditionalFieldLogic::ValidatePossibleValues(System.String[],System.String)": {
+          "Lines": {
+            "67": 8,
+            "68": 8,
+            "69": 6,
+            "71": 6,
+            "72": 6,
+            "73": 4,
+            "75": 12,
+            "76": 3,
+            "77": 2,
+            "78": 2,
+            "80": 5,
+            "81": 2,
+            "82": 5,
+            "83": 1,
+            "84": 1,
+            "85": 1,
+            "87": 5,
+            "88": 5,
+            "89": 3,
+            "90": 3,
+            "91": 3,
+            "92": 2,
+            "93": 2,
+            "94": 2,
+            "95": 2,
+            "96": 5,
+            "97": 4,
+            "98": 4,
+            "100": 1,
+            "101": 3
+          },
+          "Branches": [
+            {
+              "Line": 68,
+              "Offset": 2,
+              "EndOffset": 4,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 6
+            },
+            {
+              "Line": 68,
+              "Offset": 2,
+              "EndOffset": 11,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            },
+            {
+              "Line": 68,
+              "Offset": 14,
+              "EndOffset": 19,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 6
+            },
+            {
+              "Line": 72,
+              "Offset": 34,
+              "EndOffset": 36,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 4
+            },
+            {
+              "Line": 72,
+              "Offset": 34,
+              "EndOffset": 70,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 2
+            },
+            {
+              "Line": 77,
+              "Offset": 85,
+              "EndOffset": 87,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 2
+            },
+            {
+              "Line": 77,
+              "Offset": 85,
+              "EndOffset": 121,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 5
+            },
+            {
+              "Line": 88,
+              "Offset": 164,
+              "EndOffset": 166,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 3
+            },
+            {
+              "Line": 90,
+              "Offset": 174,
+              "EndOffset": 176,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 1
+            },
+            {
+              "Line": 90,
+              "Offset": 174,
+              "EndOffset": 199,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 2
+            },
+            {
+              "Line": 88,
+              "Offset": 164,
+              "EndOffset": 204,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 2
+            },
+            {
+              "Line": 92,
+              "Offset": 219,
+              "EndOffset": 221,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 2
+            },
+            {
+              "Line": 94,
+              "Offset": 229,
+              "EndOffset": 231,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 1
+            },
+            {
+              "Line": 94,
+              "Offset": 229,
+              "EndOffset": 254,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 1
+            },
+            {
+              "Line": 92,
+              "Offset": 219,
+              "EndOffset": 257,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 5
+            },
+            {
+              "Line": 96,
+              "Offset": 265,
+              "EndOffset": 267,
+              "Path": 0,
+              "Ordinal": 16,
+              "Hits": 4
+            },
+            {
+              "Line": 96,
+              "Offset": 265,
+              "EndOffset": 289,
+              "Path": 1,
+              "Ordinal": 17,
+              "Hits": 1
+            },
+            {
+              "Line": 68,
+              "Offset": 14,
+              "EndOffset": 290,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 3
+            }
+          ]
+        },
+        "System.Void Backend.BusinessLogic.AdditionalFieldLogic::.ctor(Backend.Repository.Interface.IRepository`1<Backend.Domain.AdditionalField>)": {
+          "Lines": {
+            "15": 14,
+            "16": 14,
+            "17": 14,
+            "18": 14
+          },
+          "Branches": []
+        }
+      }
+    },
+    "d:\\Google Drive\\Facultad\\ORT\\6-Diseño de Aplicaciones 2\\Tarea\\Backend\\Backend.BusinessLogic\\ApplicantLogic.cs": {
+      "Backend.BusinessLogic.ApplicantLogic": {
+        "System.Void Backend.BusinessLogic.ApplicantLogic::Validate(Backend.Domain.Applicant)": {
+          "Lines": {
+            "13": 9,
+            "14": 9,
+            "15": 1,
+            "16": 1,
+            "18": 8,
+            "19": 1,
+            "20": 1,
+            "22": 7,
+            "23": 1,
+            "24": 1,
+            "26": 6,
+            "27": 1,
+            "28": 1,
+            "30": 5
+          },
+          "Branches": [
+            {
+              "Line": 14,
+              "Offset": 7,
+              "EndOffset": 9,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 14,
+              "Offset": 7,
+              "EndOffset": 21,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 8
+            },
+            {
+              "Line": 18,
+              "Offset": 34,
+              "EndOffset": 36,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 18,
+              "Offset": 34,
+              "EndOffset": 48,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 7
+            },
+            {
+              "Line": 22,
+              "Offset": 61,
+              "EndOffset": 63,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1
+            },
+            {
+              "Line": 22,
+              "Offset": 61,
+              "EndOffset": 75,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 6
+            },
+            {
+              "Line": 26,
+              "Offset": 91,
+              "EndOffset": 93,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 1
+            },
+            {
+              "Line": 26,
+              "Offset": 91,
+              "EndOffset": 105,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 5
+            }
+          ]
+        }
+      }
+    },
+    "d:\\Google Drive\\Facultad\\ORT\\6-Diseño de Aplicaciones 2\\Tarea\\Backend\\Backend.BusinessLogic\\AreaLogic.cs": {
+      "Backend.BusinessLogic.AreaLogic": {
+        "Backend.Domain.Area Backend.BusinessLogic.AreaLogic::Create(Backend.Domain.Area)": {
+          "Lines": {
+            "20": 1,
+            "21": 1,
+            "22": 0,
+            "23": 1,
+            "24": 1,
+            "25": 1,
+            "26": 1,
+            "27": 1,
+            "29": 0,
+            "30": 1
+          },
+          "Branches": [
+            {
+              "Line": 23,
+              "Offset": 62,
+              "EndOffset": 64,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 23,
+              "Offset": 62,
+              "EndOffset": 104,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "Backend.Domain.Area Backend.BusinessLogic.AreaLogic::Get(System.Guid)": {
+          "Lines": {
+            "33": 1,
+            "34": 1,
+            "35": 1
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<Backend.Domain.Area> Backend.BusinessLogic.AreaLogic::GetAll()": {
+          "Lines": {
+            "38": 2,
+            "39": 2,
+            "40": 2
+          },
+          "Branches": []
+        },
+        "System.Void Backend.BusinessLogic.AreaLogic::Remove(System.Guid)": {
+          "Lines": {
+            "43": 1,
+            "44": 1,
+            "45": 1,
+            "46": 1,
+            "47": 1
+          },
+          "Branches": []
+        },
+        "System.Void Backend.BusinessLogic.AreaLogic::Validate(Backend.Domain.Area)": {
+          "Lines": {
+            "50": 1,
+            "52": 1
+          },
+          "Branches": []
+        },
+        "System.Void Backend.BusinessLogic.AreaLogic::.ctor(Backend.Repository.Interface.IRepository`1<Backend.Domain.Area>)": {
+          "Lines": {
+            "14": 4,
+            "15": 4,
+            "16": 4,
+            "17": 4
+          },
+          "Branches": []
+        }
+      }
+    },
+    "d:\\Google Drive\\Facultad\\ORT\\6-Diseño de Aplicaciones 2\\Tarea\\Backend\\Backend.BusinessLogic\\DataImportLogic.cs": {
+      "Backend.BusinessLogic.DataImportLogic": {
+        "System.Collections.Generic.List`1<IMMRequestDataImport.domain.DllInfo> Backend.BusinessLogic.DataImportLogic::GetAll()": {
+          "Lines": {
+            "24": 1,
+            "25": 1,
+            "26": 1,
+            "27": 3,
+            "28": 1,
+            "29": 1
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<Backend.Domain.Area> Backend.BusinessLogic.DataImportLogic::Import(System.String,System.Collections.Generic.List`1<IMMRequestDataImport.domain.ImportField>)": {
+          "Lines": {
+            "32": 2,
+            "33": 2,
+            "34": 2,
+            "35": 2,
+            "36": 2,
+            "37": 2
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<Backend.Domain.Area> Backend.BusinessLogic.DataImportLogic::GenerateAreas(System.Collections.Generic.List`1<IMMRequestDataImport.domain.ImportArea>)": {
+          "Lines": {
+            "40": 2,
+            "41": 2,
+            "42": 14,
+            "43": 4,
+            "44": 4,
+            "45": 4,
+            "46": 4,
+            "47": 4,
+            "48": 4,
+            "49": 2,
+            "50": 2
+          },
+          "Branches": [
+            {
+              "Line": 42,
+              "Offset": 89,
+              "EndOffset": 17,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 4
+            },
+            {
+              "Line": 42,
+              "Offset": 89,
+              "EndOffset": 91,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            }
+          ]
+        },
+        "System.Collections.Generic.List`1<Backend.Domain.Topic> Backend.BusinessLogic.DataImportLogic::GenerateTopics(IMMRequestDataImport.domain.ImportArea,Backend.Domain.Area)": {
+          "Lines": {
+            "53": 4,
+            "54": 4,
+            "55": 26,
+            "56": 7,
+            "57": 7,
+            "58": 7,
+            "59": 7,
+            "60": 7,
+            "61": 7,
+            "62": 4,
+            "63": 4
+          },
+          "Branches": [
+            {
+              "Line": 55,
+              "Offset": 102,
+              "EndOffset": 22,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 7
+            },
+            {
+              "Line": 55,
+              "Offset": 102,
+              "EndOffset": 104,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 4
+            }
+          ]
+        },
+        "System.Collections.Generic.List`1<Backend.Domain.TopicType> Backend.BusinessLogic.DataImportLogic::GenerateTopicTypes(IMMRequestDataImport.domain.ImportTopic,Backend.Domain.Topic)": {
+          "Lines": {
+            "66": 7,
+            "67": 7,
+            "68": 37,
+            "69": 8,
+            "70": 8,
+            "72": 8,
+            "73": 8,
+            "74": 8,
+            "75": 0,
+            "76": 8,
+            "77": 8,
+            "78": 7,
+            "79": 7
+          },
+          "Branches": [
+            {
+              "Line": 68,
+              "Offset": 96,
+              "EndOffset": 22,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 8
+            },
+            {
+              "Line": 68,
+              "Offset": 96,
+              "EndOffset": 98,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 7
+            }
+          ]
+        },
+        "System.Void Backend.BusinessLogic.DataImportLogic::.ctor(Backend.BusinessLogic.Interface.ILogic`1<Backend.Domain.Area>,Backend.BusinessLogic.Interface.ILogic`1<Backend.Domain.Topic>,Backend.BusinessLogic.Interface.ITopicTypeLogic)": {
+          "Lines": {
+            "16": 3,
+            "17": 3,
+            "18": 3,
+            "19": 3,
+            "20": 3,
+            "21": 3
+          },
+          "Branches": []
+        }
+      }
+    },
+    "d:\\Google Drive\\Facultad\\ORT\\6-Diseño de Aplicaciones 2\\Tarea\\Backend\\Backend.BusinessLogic\\ReflectionHandling.cs": {
+      "Backend.BusinessLogic.ReflectionHandling": {
+        "T Backend.BusinessLogic.ReflectionHandling::CreateInstanceImplementing(System.String,System.String)": {
+          "Lines": {
+            "13": 5,
+            "14": 5,
+            "15": 4,
+            "16": 4,
+            "17": 3,
+            "19": 3,
+            "20": 3
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<T> Backend.BusinessLogic.ReflectionHandling::CreateAllInstancesImplementing(System.String)": {
+          "Lines": {
+            "23": 2,
+            "24": 2,
+            "25": 2,
+            "26": 2,
+            "28": 2,
+            "29": 8,
+            "30": 8,
+            "31": 8,
+            "32": 6,
+            "33": 8,
+            "34": 6,
+            "36": 2,
+            "37": 2
+          },
+          "Branches": [
+            {
+              "Line": 31,
+              "Offset": 17,
+              "EndOffset": 19,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 4
+            },
+            {
+              "Line": 31,
+              "Offset": 17,
+              "EndOffset": 32,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 6
+            }
+          ]
+        },
+        "System.Reflection.Assembly Backend.BusinessLogic.ReflectionHandling::GetAssembly(System.String,System.String)": {
+          "Lines": {
+            "40": 5,
+            "42": 5,
+            "43": 5,
+            "44": 5,
+            "46": 3,
+            "47": 4
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<System.Reflection.Assembly> Backend.BusinessLogic.ReflectionHandling::GetAllAssemblys(System.String)": {
+          "Lines": {
+            "50": 2,
+            "51": 2,
+            "52": 2,
+            "54": 2,
+            "55": 2,
+            "56": 18,
+            "57": 6,
+            "58": 6,
+            "59": 6,
+            "61": 2,
+            "62": 2
+          },
+          "Branches": [
+            {
+              "Line": 56,
+              "Offset": 97,
+              "EndOffset": 57,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 6
+            },
+            {
+              "Line": 56,
+              "Offset": 97,
+              "EndOffset": 99,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            }
+          ]
+        },
+        "System.Type Backend.BusinessLogic.ReflectionHandling::GetTypesInAssembly(System.Reflection.Assembly)": {
+          "Lines": {
+            "65": 10,
+            "66": 10,
+            "67": 62,
+            "68": 16,
+            "69": 16,
+            "70": 7,
+            "71": 16,
+            "72": 10,
+            "73": 10
+          },
+          "Branches": [
+            {
+              "Line": 67,
+              "Offset": 63,
+              "EndOffset": 19,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 16
+            },
+            {
+              "Line": 69,
+              "Offset": 44,
+              "EndOffset": 46,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 7
+            },
+            {
+              "Line": 69,
+              "Offset": 44,
+              "EndOffset": 54,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 16
+            },
+            {
+              "Line": 67,
+              "Offset": 63,
+              "EndOffset": 65,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 10
+            }
+          ]
+        },
+        "System.Void Backend.BusinessLogic.ReflectionHandling::CheckImplementations(System.Type)": {
+          "Lines": {
+            "76": 4,
+            "77": 4,
+            "78": 1,
+            "79": 3
+          },
+          "Branches": [
+            {
+              "Line": 77,
+              "Offset": 10,
+              "EndOffset": 12,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 77,
+              "Offset": 10,
+              "EndOffset": 23,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 3
+            }
+          ]
+        }
+      }
+    },
+    "d:\\Google Drive\\Facultad\\ORT\\6-Diseño de Aplicaciones 2\\Tarea\\Backend\\Backend.BusinessLogic\\RequestLogic.cs": {
+      "Backend.BusinessLogic.RequestLogic": {
+        "Backend.Domain.Request Backend.BusinessLogic.RequestLogic::Create(Backend.Domain.Request)": {
+          "Lines": {
+            "26": 8,
+            "27": 8,
+            "28": 7,
+            "29": 2,
+            "30": 2,
+            "31": 2,
+            "32": 2,
+            "33": 2
+          },
+          "Branches": []
+        },
+        "Backend.Domain.Request Backend.BusinessLogic.RequestLogic::Get(System.Guid)": {
+          "Lines": {
+            "36": 1,
+            "37": 1,
+            "38": 1,
+            "39": 1
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<Backend.Domain.Request> Backend.BusinessLogic.RequestLogic::GetAll()": {
+          "Lines": {
+            "42": 2,
+            "43": 2,
+            "44": 2
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<Backend.Domain.Request> Backend.BusinessLogic.RequestLogic::GetReportA(System.String,System.DateTime,System.DateTime)": {
+          "Lines": {
+            "47": 2,
+            "48": 2,
+            "49": 1,
+            "50": 1,
+            "52": 4,
+            "53": 4,
+            "54": 1,
+            "55": 1
+          },
+          "Branches": [
+            {
+              "Line": 48,
+              "Offset": 47,
+              "EndOffset": 49,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 48,
+              "Offset": 47,
+              "EndOffset": 61,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 52,
+              "Offset": 32,
+              "EndOffset": 34,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 52,
+              "Offset": 51,
+              "EndOffset": 53,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 2
+            },
+            {
+              "Line": 52,
+              "Offset": 32,
+              "EndOffset": 72,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 52,
+              "Offset": 51,
+              "EndOffset": 72,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Void Backend.BusinessLogic.RequestLogic::UpdateStatus(Backend.Domain.Request)": {
+          "Lines": {
+            "58": 9,
+            "59": 9,
+            "60": 2,
+            "61": 2,
+            "62": 1,
+            "63": 1,
+            "64": 1,
+            "65": 2,
+            "66": 2,
+            "67": 2
+          },
+          "Branches": [
+            {
+              "Line": 61,
+              "Offset": 38,
+              "EndOffset": 40,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 61,
+              "Offset": 38,
+              "EndOffset": 55,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            }
+          ]
+        },
+        "System.Void Backend.BusinessLogic.RequestLogic::Remove(System.Guid)": {
+          "Lines": {
+            "70": 1,
+            "71": 1,
+            "72": 1,
+            "73": 1,
+            "74": 1
+          },
+          "Branches": []
+        },
+        "System.Void Backend.BusinessLogic.RequestLogic::GenerateRequestData(Backend.Domain.Request)": {
+          "Lines": {
+            "77": 8,
+            "78": 8,
+            "79": 7,
+            "80": 7,
+            "81": 7,
+            "82": 7,
+            "83": 7,
+            "84": 7
+          },
+          "Branches": []
+        },
+        "System.Void Backend.BusinessLogic.RequestLogic::Validate(Backend.Domain.Request)": {
+          "Lines": {
+            "87": 7,
+            "88": 7,
+            "89": 1,
+            "90": 1,
+            "92": 6,
+            "93": 1,
+            "94": 1,
+            "96": 5,
+            "97": 5,
+            "98": 4,
+            "99": 2
+          },
+          "Branches": [
+            {
+              "Line": 88,
+              "Offset": 14,
+              "EndOffset": 16,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 88,
+              "Offset": 14,
+              "EndOffset": 28,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 6
+            },
+            {
+              "Line": 92,
+              "Offset": 48,
+              "EndOffset": 50,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 92,
+              "Offset": 48,
+              "EndOffset": 62,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 5
+            }
+          ]
+        },
+        "System.Void Backend.BusinessLogic.RequestLogic::CreateAdditionalFieldsData(Backend.Domain.Request)": {
+          "Lines": {
+            "102": 2,
+            "103": 2,
+            "104": 1,
+            "105": 1,
+            "106": 1,
+            "107": 2,
+            "108": 1,
+            "109": 2
+          },
+          "Branches": [
+            {
+              "Line": 103,
+              "Offset": 37,
+              "EndOffset": 39,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 103,
+              "Offset": 37,
+              "EndOffset": 89,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            }
+          ]
+        },
+        "System.Void Backend.BusinessLogic.RequestLogic::ValidateTopicType(Backend.Domain.TopicType)": {
+          "Lines": {
+            "112": 13,
+            "113": 13,
+            "114": 2,
+            "115": 2,
+            "117": 11
+          },
+          "Branches": [
+            {
+              "Line": 113,
+              "Offset": 7,
+              "EndOffset": 9,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 113,
+              "Offset": 7,
+              "EndOffset": 21,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 11
+            }
+          ]
+        },
+        "System.Void Backend.BusinessLogic.RequestLogic::ValidateAdditionalFields(System.Collections.Generic.List`1<Backend.Domain.AdditionalFieldData>,Backend.Domain.TopicType)": {
+          "Lines": {
+            "120": 4,
+            "121": 4,
+            "122": 3,
+            "123": 14,
+            "124": 3,
+            "125": 5,
+            "126": 1,
+            "127": 1,
+            "129": 2,
+            "130": 2,
+            "131": 1,
+            "132": 1,
+            "134": 2,
+            "135": 1,
+            "136": 2
+          },
+          "Branches": [
+            {
+              "Line": 121,
+              "Offset": 12,
+              "EndOffset": 17,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 3
+            },
+            {
+              "Line": 123,
+              "Offset": 147,
+              "EndOffset": 33,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 3
+            },
+            {
+              "Line": 125,
+              "Offset": 54,
+              "EndOffset": 56,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 2
+            },
+            {
+              "Line": 125,
+              "Offset": 62,
+              "EndOffset": 64,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 2
+            },
+            {
+              "Line": 125,
+              "Offset": 54,
+              "EndOffset": 87,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            },
+            {
+              "Line": 125,
+              "Offset": 62,
+              "EndOffset": 87,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1
+            },
+            {
+              "Line": 125,
+              "Offset": 90,
+              "EndOffset": 92,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 1
+            },
+            {
+              "Line": 125,
+              "Offset": 90,
+              "EndOffset": 139,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 2
+            },
+            {
+              "Line": 123,
+              "Offset": 147,
+              "EndOffset": 149,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 2
+            },
+            {
+              "Line": 130,
+              "Offset": 192,
+              "EndOffset": 194,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 1
+            },
+            {
+              "Line": 130,
+              "Offset": 192,
+              "EndOffset": 206,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 1
+            },
+            {
+              "Line": 121,
+              "Offset": 12,
+              "EndOffset": 226,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            }
+          ]
+        },
+        "Backend.Domain.Request Backend.BusinessLogic.RequestLogic::ValidateBeforeUpdateStatus(Backend.Domain.Request)": {
+          "Lines": {
+            "139": 9,
+            "140": 9,
+            "141": 1,
+            "142": 1,
+            "144": 8,
+            "145": 8,
+            "146": 1,
+            "147": 1,
+            "149": 7,
+            "150": 6,
+            "151": 23,
+            "152": 4,
+            "153": 4,
+            "155": 2,
+            "156": 2
+          },
+          "Branches": [
+            {
+              "Line": 140,
+              "Offset": 25,
+              "EndOffset": 27,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 140,
+              "Offset": 25,
+              "EndOffset": 39,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 8
+            },
+            {
+              "Line": 145,
+              "Offset": 70,
+              "EndOffset": 72,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 145,
+              "Offset": 70,
+              "EndOffset": 84,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 7
+            },
+            {
+              "Line": 151,
+              "Offset": 140,
+              "EndOffset": 142,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 4
+            },
+            {
+              "Line": 151,
+              "Offset": 140,
+              "EndOffset": 154,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 2
+            }
+          ]
+        },
+        "System.Collections.Generic.List`1<System.String> Backend.BusinessLogic.RequestLogic::GetPossibleStatus(System.String)": {
+          "Lines": {
+            "159": 13,
+            "160": 13,
+            "161": 13,
+            "162": 3,
+            "163": 3,
+            "164": 3,
+            "165": 3,
+            "166": 10,
+            "167": 3,
+            "168": 3,
+            "169": 3,
+            "170": 3,
+            "171": 3,
+            "172": 3,
+            "173": 7,
+            "174": 4,
+            "175": 4,
+            "176": 4,
+            "177": 4,
+            "178": 4,
+            "179": 4,
+            "180": 3,
+            "181": 2,
+            "182": 2,
+            "183": 2,
+            "184": 2,
+            "185": 2,
+            "187": 1,
+            "188": 1,
+            "190": 12,
+            "191": 12
+          },
+          "Branches": [
+            {
+              "Line": 161,
+              "Offset": 20,
+              "EndOffset": 22,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 3
+            },
+            {
+              "Line": 161,
+              "Offset": 20,
+              "EndOffset": 53,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 10
+            },
+            {
+              "Line": 166,
+              "Offset": 66,
+              "EndOffset": 68,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 3
+            },
+            {
+              "Line": 166,
+              "Offset": 66,
+              "EndOffset": 123,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 7
+            },
+            {
+              "Line": 173,
+              "Offset": 134,
+              "EndOffset": 136,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 3
+            },
+            {
+              "Line": 173,
+              "Offset": 134,
+              "EndOffset": 149,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 4
+            },
+            {
+              "Line": 173,
+              "Offset": 152,
+              "EndOffset": 154,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 4
+            },
+            {
+              "Line": 173,
+              "Offset": 152,
+              "EndOffset": 206,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 3
+            },
+            {
+              "Line": 180,
+              "Offset": 221,
+              "EndOffset": 223,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 2
+            },
+            {
+              "Line": 180,
+              "Offset": 221,
+              "EndOffset": 263,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Void Backend.BusinessLogic.RequestLogic::.ctor(Backend.Repository.Interface.IRepository`1<Backend.Domain.Request>,Backend.BusinessLogic.Interface.ITopicTypeLogic,Backend.BusinessLogic.Interface.ILogic`1<Backend.Domain.AdditionalFieldData>)": {
+          "Lines": {
+            "17": 22,
+            "18": 22,
+            "19": 22,
+            "20": 22,
+            "21": 22,
+            "22": 22,
+            "23": 22
+          },
+          "Branches": []
+        }
+      }
+    },
+    "d:\\Google Drive\\Facultad\\ORT\\6-Diseño de Aplicaciones 2\\Tarea\\Backend\\Backend.BusinessLogic\\SessionLogic.cs": {
+      "Backend.BusinessLogic.SessionLogic": {
+        "System.Guid Backend.BusinessLogic.SessionLogic::Login(System.String,System.String)": {
+          "Lines": {
+            "22": 7,
+            "23": 7,
+            "24": 3,
+            "25": 1,
+            "26": 1,
+            "27": 1,
+            "28": 1,
+            "29": 1,
+            "30": 1
+          },
+          "Branches": []
+        },
+        "System.Void Backend.BusinessLogic.SessionLogic::Logout(System.Guid)": {
+          "Lines": {
+            "33": 2,
+            "34": 2,
+            "35": 2,
+            "36": 1,
+            "37": 1,
+            "39": 1,
+            "40": 1,
+            "41": 1
+          },
+          "Branches": [
+            {
+              "Line": 35,
+              "Offset": 20,
+              "EndOffset": 22,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 35,
+              "Offset": 20,
+              "EndOffset": 34,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Boolean Backend.BusinessLogic.SessionLogic::IsLogued(System.Guid)": {
+          "Lines": {
+            "44": 2,
+            "45": 3,
+            "46": 2,
+            "47": 2
+          },
+          "Branches": [
+            {
+              "Line": 46,
+              "Offset": 55,
+              "EndOffset": 57,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 46,
+              "Offset": 55,
+              "EndOffset": 60,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        },
+        "Backend.Domain.User Backend.BusinessLogic.SessionLogic::Get(System.String,System.String)": {
+          "Lines": {
+            "50": 3,
+            "51": 6,
+            "52": 3,
+            "53": 2,
+            "54": 2,
+            "56": 1,
+            "57": 1
+          },
+          "Branches": [
+            {
+              "Line": 52,
+              "Offset": 61,
+              "EndOffset": 63,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 52,
+              "Offset": 61,
+              "EndOffset": 75,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 51,
+              "Offset": 27,
+              "EndOffset": 29,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 51,
+              "Offset": 27,
+              "EndOffset": 48,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Void Backend.BusinessLogic.SessionLogic::ValidateCredentials(System.String,System.String)": {
+          "Lines": {
+            "60": 7,
+            "61": 7,
+            "62": 2,
+            "63": 2,
+            "65": 5,
+            "66": 2,
+            "67": 2,
+            "69": 3
+          },
+          "Branches": [
+            {
+              "Line": 61,
+              "Offset": 9,
+              "EndOffset": 11,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 61,
+              "Offset": 9,
+              "EndOffset": 23,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 5
+            },
+            {
+              "Line": 65,
+              "Offset": 31,
+              "EndOffset": 33,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 2
+            },
+            {
+              "Line": 65,
+              "Offset": 31,
+              "EndOffset": 45,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 3
+            }
+          ]
+        },
+        "System.Void Backend.BusinessLogic.SessionLogic::.ctor(Backend.Repository.Interface.IRepository`1<Backend.Domain.UserSession>,Backend.BusinessLogic.Interface.IUserLogic)": {
+          "Lines": {
+            "15": 11,
+            "16": 11,
+            "17": 11,
+            "18": 11,
+            "19": 11
+          },
+          "Branches": []
+        }
+      }
+    },
+    "d:\\Google Drive\\Facultad\\ORT\\6-Diseño de Aplicaciones 2\\Tarea\\Backend\\Backend.BusinessLogic\\TopicLogic.cs": {
+      "Backend.BusinessLogic.TopicLogic": {
+        "Backend.Domain.Topic Backend.BusinessLogic.TopicLogic::Create(Backend.Domain.Topic)": {
+          "Lines": {
+            "19": 1,
+            "20": 1,
+            "21": 1,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "26": 1,
+            "27": 1,
+            "28": 1,
+            "29": 1,
+            "30": 1,
+            "31": 1
+          },
+          "Branches": [
+            {
+              "Line": 21,
+              "Offset": 41,
+              "EndOffset": 43,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 21,
+              "Offset": 41,
+              "EndOffset": 86,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        },
+        "Backend.Domain.Topic Backend.BusinessLogic.TopicLogic::Get(System.Guid)": {
+          "Lines": {
+            "34": 1,
+            "35": 1,
+            "36": 1
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<Backend.Domain.Topic> Backend.BusinessLogic.TopicLogic::GetAll()": {
+          "Lines": {
+            "39": 1,
+            "40": 1,
+            "41": 1
+          },
+          "Branches": []
+        },
+        "System.Void Backend.BusinessLogic.TopicLogic::Remove(System.Guid)": {
+          "Lines": {
+            "44": 1,
+            "45": 1,
+            "46": 1,
+            "47": 1,
+            "48": 1
+          },
+          "Branches": []
+        },
+        "System.Void Backend.BusinessLogic.TopicLogic::Validate(Backend.Domain.Topic)": {
+          "Lines": {
+            "51": 1,
+            "52": 1
+          },
+          "Branches": []
+        },
+        "System.Boolean Backend.BusinessLogic.TopicLogic::Exists(Backend.Domain.Topic)": {
+          "Lines": {
+            "55": 1,
+            "56": 0,
+            "57": 1
+          },
+          "Branches": [
+            {
+              "Line": 56,
+              "Offset": 30,
+              "EndOffset": 32,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 56,
+              "Offset": 30,
+              "EndOffset": 67,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Void Backend.BusinessLogic.TopicLogic::.ctor(Backend.Repository.Interface.IRepository`1<Backend.Domain.Topic>)": {
+          "Lines": {
+            "13": 4,
+            "14": 4,
+            "15": 4,
+            "16": 4
+          },
+          "Branches": []
+        }
+      }
+    },
+    "d:\\Google Drive\\Facultad\\ORT\\6-Diseño de Aplicaciones 2\\Tarea\\Backend\\Backend.BusinessLogic\\TopicTypeLogic.cs": {
+      "Backend.BusinessLogic.TopicTypeLogic": {
+        "Backend.Domain.TopicType Backend.BusinessLogic.TopicTypeLogic::Create(Backend.Domain.TopicType)": {
+          "Lines": {
+            "26": 8,
+            "27": 8,
+            "28": 6,
+            "29": 6,
+            "30": 5,
+            "31": 5,
+            "32": 4,
+            "33": 3,
+            "34": 3,
+            "35": 3,
+            "36": 3
+          },
+          "Branches": []
+        },
+        "Backend.Domain.TopicType Backend.BusinessLogic.TopicTypeLogic::Get(System.Guid)": {
+          "Lines": {
+            "39": 1,
+            "40": 1,
+            "41": 1
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<Backend.Domain.TopicType> Backend.BusinessLogic.TopicTypeLogic::GetAll()": {
+          "Lines": {
+            "44": 2,
+            "45": 2,
+            "46": 2
+          },
+          "Branches": []
+        },
+        "System.Void Backend.BusinessLogic.TopicTypeLogic::Remove(System.Guid)": {
+          "Lines": {
+            "49": 2,
+            "50": 2,
+            "51": 2,
+            "52": 1,
+            "53": 1,
+            "55": 1,
+            "56": 1,
+            "57": 1
+          },
+          "Branches": [
+            {
+              "Line": 51,
+              "Offset": 20,
+              "EndOffset": 22,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 51,
+              "Offset": 20,
+              "EndOffset": 56,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Void Backend.BusinessLogic.TopicTypeLogic::Validate(Backend.Domain.TopicType)": {
+          "Lines": {
+            "60": 8,
+            "61": 8,
+            "62": 1,
+            "63": 1,
+            "65": 7,
+            "66": 6
+          },
+          "Branches": [
+            {
+              "Line": 61,
+              "Offset": 14,
+              "EndOffset": 16,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 61,
+              "Offset": 14,
+              "EndOffset": 28,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 7
+            }
+          ]
+        },
+        "System.Collections.Generic.List`1<Backend.Domain.TopicType> Backend.BusinessLogic.TopicTypeLogic::GetReportB(System.DateTime,System.DateTime)": {
+          "Lines": {
+            "69": 2,
+            "70": 2,
+            "71": 1,
+            "72": 1,
+            "74": 5,
+            "75": 7,
+            "76": 1
+          },
+          "Branches": [
+            {
+              "Line": 70,
+              "Offset": 40,
+              "EndOffset": 42,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 70,
+              "Offset": 40,
+              "EndOffset": 54,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 74,
+              "Offset": 17,
+              "EndOffset": 19,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 3
+            },
+            {
+              "Line": 74,
+              "Offset": 36,
+              "EndOffset": 38,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 3
+            },
+            {
+              "Line": 74,
+              "Offset": 17,
+              "EndOffset": 54,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 74,
+              "Offset": 36,
+              "EndOffset": 54,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Void Backend.BusinessLogic.TopicTypeLogic::GenerateTopicTypeData(Backend.Domain.TopicType)": {
+          "Lines": {
+            "79": 6,
+            "80": 6,
+            "81": 6,
+            "82": 6,
+            "83": 6,
+            "84": 2,
+            "85": 5,
+            "86": 2,
+            "87": 6
+          },
+          "Branches": [
+            {
+              "Line": 83,
+              "Offset": 65,
+              "EndOffset": 67,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 83,
+              "Offset": 65,
+              "EndOffset": 112,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 6
+            }
+          ]
+        },
+        "System.Void Backend.BusinessLogic.TopicTypeLogic::ValidateTopic(Backend.Domain.Topic)": {
+          "Lines": {
+            "90": 13,
+            "91": 13,
+            "92": 2,
+            "93": 2,
+            "95": 11
+          },
+          "Branches": [
+            {
+              "Line": 91,
+              "Offset": 7,
+              "EndOffset": 9,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 91,
+              "Offset": 7,
+              "EndOffset": 21,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 11
+            }
+          ]
+        },
+        "System.Void Backend.BusinessLogic.TopicTypeLogic::ValidateAdditionalFields(System.Collections.Generic.List`1<Backend.Domain.AdditionalField>)": {
+          "Lines": {
+            "98": 5,
+            "99": 5,
+            "100": 2,
+            "101": 5,
+            "102": 2,
+            "103": 5
+          },
+          "Branches": [
+            {
+              "Line": 99,
+              "Offset": 7,
+              "EndOffset": 9,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 99,
+              "Offset": 7,
+              "EndOffset": 30,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 5
+            }
+          ]
+        },
+        "System.Void Backend.BusinessLogic.TopicTypeLogic::DuplicateCheck(Backend.Domain.TopicType)": {
+          "Lines": {
+            "106": 5,
+            "107": 5,
+            "108": 2,
+            "109": 4,
+            "110": 2,
+            "111": 1,
+            "112": 1,
+            "114": 1,
+            "115": 4
+          },
+          "Branches": [
+            {
+              "Line": 107,
+              "Offset": 35,
+              "EndOffset": 37,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 110,
+              "Offset": 75,
+              "EndOffset": 77,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 110,
+              "Offset": 75,
+              "EndOffset": 89,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            },
+            {
+              "Line": 107,
+              "Offset": 35,
+              "EndOffset": 90,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 4
+            }
+          ]
+        },
+        "System.Void Backend.BusinessLogic.TopicTypeLogic::DuplicateCheckAdditionalField(System.Collections.Generic.List`1<Backend.Domain.AdditionalField>)": {
+          "Lines": {
+            "118": 4,
+            "119": 4,
+            "120": 2,
+            "121": 7,
+            "122": 2,
+            "123": 1,
+            "124": 1,
+            "126": 1,
+            "127": 3
+          },
+          "Branches": [
+            {
+              "Line": 119,
+              "Offset": 7,
+              "EndOffset": 9,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 122,
+              "Offset": 87,
+              "EndOffset": 89,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 122,
+              "Offset": 87,
+              "EndOffset": 101,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            },
+            {
+              "Line": 119,
+              "Offset": 7,
+              "EndOffset": 102,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 3
+            }
+          ]
+        },
+        "System.Void Backend.BusinessLogic.TopicTypeLogic::.ctor(Backend.Repository.Interface.IRepository`1<Backend.Domain.TopicType>,Backend.BusinessLogic.Interface.ILogic`1<Backend.Domain.Topic>,Backend.BusinessLogic.Interface.ILogic`1<Backend.Domain.AdditionalField>)": {
+          "Lines": {
+            "17": 14,
+            "18": 14,
+            "19": 14,
+            "20": 14,
+            "21": 14,
+            "22": 14,
+            "23": 14
+          },
+          "Branches": []
+        }
+      }
+    },
+    "d:\\Google Drive\\Facultad\\ORT\\6-Diseño de Aplicaciones 2\\Tarea\\Backend\\Backend.BusinessLogic\\UserLogic.cs": {
+      "Backend.BusinessLogic.UserLogic": {
+        "Backend.Domain.User Backend.BusinessLogic.UserLogic::Create(Backend.Domain.User)": {
+          "Lines": {
+            "21": 6,
+            "22": 6,
+            "23": 2,
+            "24": 1,
+            "25": 1,
+            "26": 1,
+            "27": 1,
+            "28": 1
+          },
+          "Branches": []
+        },
+        "Backend.Domain.User Backend.BusinessLogic.UserLogic::Get(System.Guid)": {
+          "Lines": {
+            "31": 2,
+            "32": 2,
+            "33": 2
+          },
+          "Branches": []
+        },
+        "Backend.Domain.User Backend.BusinessLogic.UserLogic::GetByEmail(System.String)": {
+          "Lines": {
+            "36": 0,
+            "37": 0,
+            "38": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<Backend.Domain.User> Backend.BusinessLogic.UserLogic::GetAll()": {
+          "Lines": {
+            "41": 1,
+            "42": 1,
+            "43": 1
+          },
+          "Branches": []
+        },
+        "System.Void Backend.BusinessLogic.UserLogic::Remove(System.Guid)": {
+          "Lines": {
+            "46": 2,
+            "47": 2,
+            "48": 2,
+            "49": 1,
+            "50": 1,
+            "52": 1,
+            "53": 1,
+            "54": 1
+          },
+          "Branches": [
+            {
+              "Line": 48,
+              "Offset": 20,
+              "EndOffset": 22,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 48,
+              "Offset": 20,
+              "EndOffset": 56,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        },
+        "Backend.Domain.User Backend.BusinessLogic.UserLogic::Update(Backend.Domain.User)": {
+          "Lines": {
+            "57": 4,
+            "58": 4,
+            "59": 4,
+            "60": 1,
+            "61": 1,
+            "63": 3,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 3,
+            "68": 3,
+            "69": 3,
+            "70": 3,
+            "71": 3,
+            "72": 3,
+            "73": 3,
+            "74": 3,
+            "75": 3
+          },
+          "Branches": [
+            {
+              "Line": 59,
+              "Offset": 25,
+              "EndOffset": 27,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 59,
+              "Offset": 25,
+              "EndOffset": 68,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 3
+            },
+            {
+              "Line": 63,
+              "Offset": 81,
+              "EndOffset": 83,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 63,
+              "Offset": 81,
+              "EndOffset": 98,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 3
+            }
+          ]
+        },
+        "System.Void Backend.BusinessLogic.UserLogic::Validate(Backend.Domain.User)": {
+          "Lines": {
+            "78": 9,
+            "79": 9,
+            "80": 1,
+            "81": 1,
+            "83": 8,
+            "84": 1,
+            "85": 1,
+            "87": 7,
+            "88": 1,
+            "89": 1,
+            "91": 6,
+            "92": 1,
+            "93": 1,
+            "95": 5
+          },
+          "Branches": [
+            {
+              "Line": 79,
+              "Offset": 7,
+              "EndOffset": 9,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 79,
+              "Offset": 7,
+              "EndOffset": 21,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 8
+            },
+            {
+              "Line": 83,
+              "Offset": 34,
+              "EndOffset": 36,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 83,
+              "Offset": 34,
+              "EndOffset": 48,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 7
+            },
+            {
+              "Line": 87,
+              "Offset": 64,
+              "EndOffset": 66,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1
+            },
+            {
+              "Line": 87,
+              "Offset": 64,
+              "EndOffset": 78,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 6
+            },
+            {
+              "Line": 91,
+              "Offset": 91,
+              "EndOffset": 93,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 1
+            },
+            {
+              "Line": 91,
+              "Offset": 91,
+              "EndOffset": 105,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 5
+            }
+          ]
+        },
+        "System.Void Backend.BusinessLogic.UserLogic::DuplicateCheck(Backend.Domain.User,System.Boolean)": {
+          "Lines": {
+            "98": 5,
+            "100": 5,
+            "101": 2,
+            "102": 3,
+            "103": 2,
+            "105": 3,
+            "106": 6,
+            "107": 3,
+            "108": 5,
+            "109": 1,
+            "110": 1,
+            "112": 4
+          },
+          "Branches": [
+            {
+              "Line": 100,
+              "Offset": 17,
+              "EndOffset": 19,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 100,
+              "Offset": 17,
+              "EndOffset": 52,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 3
+            },
+            {
+              "Line": 108,
+              "Offset": 86,
+              "EndOffset": 88,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 108,
+              "Offset": 86,
+              "EndOffset": 100,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 4
+            },
+            {
+              "Line": 106,
+              "Offset": 32,
+              "EndOffset": 34,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 106,
+              "Offset": 32,
+              "EndOffset": 58,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Void Backend.BusinessLogic.UserLogic::.ctor(Backend.Repository.Interface.IRepository`1<Backend.Domain.User>)": {
+          "Lines": {
+            "15": 15,
+            "16": 15,
+            "17": 15,
+            "18": 15
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "Backend.BusinessLogic.Interface.dll": {},
+  "Backend.Domain.dll": {
+    "D:\\Google Drive\\Facultad\\ORT\\6-Diseño de Aplicaciones 2\\Tarea\\Backend\\Backend.Domain\\AdditionalField.cs": {
+      "Backend.Domain.AdditionalField": {
+        "System.Guid Backend.Domain.AdditionalField::get_Id()": {
+          "Lines": {
+            "7": 65
+          },
+          "Branches": []
+        },
+        "System.String Backend.Domain.AdditionalField::get_Name()": {
+          "Lines": {
+            "8": 27
+          },
+          "Branches": []
+        },
+        "System.Boolean Backend.Domain.AdditionalField::get_MultipleValues()": {
+          "Lines": {
+            "9": 6
+          },
+          "Branches": []
+        },
+        "System.String[] Backend.Domain.AdditionalField::get_PossibleValues()": {
+          "Lines": {
+            "10": 59
+          },
+          "Branches": []
+        },
+        "System.String Backend.Domain.AdditionalField::get_FieldType()": {
+          "Lines": {
+            "11": 117
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Google Drive\\Facultad\\ORT\\6-Diseño de Aplicaciones 2\\Tarea\\Backend\\Backend.Domain\\AdditionalFieldData.cs": {
+      "Backend.Domain.AdditionalFieldData": {
+        "System.Guid Backend.Domain.AdditionalFieldData::get_Id()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "Backend.Domain.AdditionalField Backend.Domain.AdditionalFieldData::get_AdditionalField()": {
+          "Lines": {
+            "9": 168
+          },
+          "Branches": []
+        },
+        "System.String[] Backend.Domain.AdditionalFieldData::get_Data()": {
+          "Lines": {
+            "10": 76
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Google Drive\\Facultad\\ORT\\6-Diseño de Aplicaciones 2\\Tarea\\Backend\\Backend.Domain\\Applicant.cs": {
+      "Backend.Domain.Applicant": {
+        "System.Guid Backend.Domain.Applicant::get_Id()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.String Backend.Domain.Applicant::get_Name()": {
+          "Lines": {
+            "8": 9
+          },
+          "Branches": []
+        },
+        "System.String Backend.Domain.Applicant::get_Email()": {
+          "Lines": {
+            "9": 23
+          },
+          "Branches": []
+        },
+        "System.String Backend.Domain.Applicant::get_PhoneNumber()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Google Drive\\Facultad\\ORT\\6-Diseño de Aplicaciones 2\\Tarea\\Backend\\Backend.Domain\\Area.cs": {
+      "Backend.Domain.Area": {
+        "System.Guid Backend.Domain.Area::get_Id()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.String Backend.Domain.Area::get_Name()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<Backend.Domain.Topic> Backend.Domain.Area::get_Topics()": {
+          "Lines": {
+            "10": 5
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Google Drive\\Facultad\\ORT\\6-Diseño de Aplicaciones 2\\Tarea\\Backend\\Backend.Domain\\Request.cs": {
+      "Backend.Domain.Request": {
+        "System.Guid Backend.Domain.Request::get_Id()": {
+          "Lines": {
+            "8": 57
+          },
+          "Branches": []
+        },
+        "System.DateTime Backend.Domain.Request::get_Date()": {
+          "Lines": {
+            "9": 15
+          },
+          "Branches": []
+        },
+        "System.String Backend.Domain.Request::get_Details()": {
+          "Lines": {
+            "10": 20
+          },
+          "Branches": []
+        },
+        "Backend.Domain.Applicant Backend.Domain.Request::get_Applicant()": {
+          "Lines": {
+            "11": 20
+          },
+          "Branches": []
+        },
+        "System.String Backend.Domain.Request::get_Status()": {
+          "Lines": {
+            "12": 56
+          },
+          "Branches": []
+        },
+        "System.String Backend.Domain.Request::get_StatusDescription()": {
+          "Lines": {
+            "13": 15
+          },
+          "Branches": []
+        },
+        "Backend.Domain.TopicType Backend.Domain.Request::get_TopicType()": {
+          "Lines": {
+            "14": 38
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<Backend.Domain.AdditionalFieldData> Backend.Domain.Request::get_AdditionalFields()": {
+          "Lines": {
+            "15": 11
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Google Drive\\Facultad\\ORT\\6-Diseño de Aplicaciones 2\\Tarea\\Backend\\Backend.Domain\\Topic.cs": {
+      "Backend.Domain.Topic": {
+        "System.Guid Backend.Domain.Topic::get_Id()": {
+          "Lines": {
+            "8": 27
+          },
+          "Branches": []
+        },
+        "Backend.Domain.Area Backend.Domain.Topic::get_Area()": {
+          "Lines": {
+            "9": 9
+          },
+          "Branches": []
+        },
+        "System.String Backend.Domain.Topic::get_Name()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<Backend.Domain.TopicType> Backend.Domain.Topic::get_TopicTypes()": {
+          "Lines": {
+            "11": 18
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Google Drive\\Facultad\\ORT\\6-Diseño de Aplicaciones 2\\Tarea\\Backend\\Backend.Domain\\TopicType.cs": {
+      "Backend.Domain.TopicType": {
+        "System.Guid Backend.Domain.TopicType::get_Id()": {
+          "Lines": {
+            "8": 31
+          },
+          "Branches": []
+        },
+        "Backend.Domain.Topic Backend.Domain.TopicType::get_Topic()": {
+          "Lines": {
+            "9": 62
+          },
+          "Branches": []
+        },
+        "System.String Backend.Domain.TopicType::get_Name()": {
+          "Lines": {
+            "10": 42
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<Backend.Domain.AdditionalField> Backend.Domain.TopicType::get_AdditionalFields()": {
+          "Lines": {
+            "11": 29
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<Backend.Domain.Request> Backend.Domain.TopicType::get_Requests()": {
+          "Lines": {
+            "12": 10
+          },
+          "Branches": []
+        },
+        "System.DateTime Backend.Domain.TopicType::get_Created()": {
+          "Lines": {
+            "13": 20
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Google Drive\\Facultad\\ORT\\6-Diseño de Aplicaciones 2\\Tarea\\Backend\\Backend.Domain\\User.cs": {
+      "Backend.Domain.User": {
+        "System.Guid Backend.Domain.User::get_Id()": {
+          "Lines": {
+            "7": 35
+          },
+          "Branches": []
+        },
+        "System.String Backend.Domain.User::get_Name()": {
+          "Lines": {
+            "8": 29
+          },
+          "Branches": []
+        },
+        "System.String Backend.Domain.User::get_Email()": {
+          "Lines": {
+            "9": 54
+          },
+          "Branches": []
+        },
+        "System.String Backend.Domain.User::get_Password()": {
+          "Lines": {
+            "10": 39
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Google Drive\\Facultad\\ORT\\6-Diseño de Aplicaciones 2\\Tarea\\Backend\\Backend.Domain\\UserSession.cs": {
+      "Backend.Domain.UserSession": {
+        "System.Guid Backend.Domain.UserSession::get_Token()": {
+          "Lines": {
+            "7": 4
+          },
+          "Branches": []
+        },
+        "Backend.Domain.User Backend.Domain.UserSession::get_User()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.DateTime Backend.Domain.UserSession::get_Date()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.Void Backend.Domain.UserSession::.ctor()": {
+          "Lines": {
+            "10": 9
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "Backend.Repository.dll": {
+    "D:\\Google Drive\\Facultad\\ORT\\6-Diseño de Aplicaciones 2\\Tarea\\Backend\\Backend.Repository\\AdditionalFieldDataRepository.cs": {
+      "Backend.Repository.AdditionalFieldDataRepository": {
+        "Backend.Domain.AdditionalFieldData Backend.Repository.AdditionalFieldDataRepository::Get(System.Guid)": {
+          "Lines": {
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<Backend.Domain.AdditionalFieldData> Backend.Repository.AdditionalFieldDataRepository::GetAll()": {
+          "Lines": {
+            "23": 0,
+            "24": 0,
+            "25": 0
+          },
+          "Branches": []
+        },
+        "System.Void Backend.Repository.AdditionalFieldDataRepository::.ctor(Microsoft.EntityFrameworkCore.DbContext)": {
+          "Lines": {
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Google Drive\\Facultad\\ORT\\6-Diseño de Aplicaciones 2\\Tarea\\Backend\\Backend.Repository\\AdditionalFieldRepository.cs": {
+      "Backend.Repository.AdditionalFieldRepository": {
+        "Backend.Domain.AdditionalField Backend.Repository.AdditionalFieldRepository::Get(System.Guid)": {
+          "Lines": {
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<Backend.Domain.AdditionalField> Backend.Repository.AdditionalFieldRepository::GetAll()": {
+          "Lines": {
+            "23": 0,
+            "24": 0,
+            "25": 0
+          },
+          "Branches": []
+        },
+        "System.Void Backend.Repository.AdditionalFieldRepository::.ctor(Microsoft.EntityFrameworkCore.DbContext)": {
+          "Lines": {
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Google Drive\\Facultad\\ORT\\6-Diseño de Aplicaciones 2\\Tarea\\Backend\\Backend.Repository\\AreaRepository.cs": {
+      "Backend.Repository.AreaRepository": {
+        "Backend.Domain.Area Backend.Repository.AreaRepository::Get(System.Guid)": {
+          "Lines": {
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<Backend.Domain.Area> Backend.Repository.AreaRepository::GetAll()": {
+          "Lines": {
+            "23": 0,
+            "24": 0,
+            "25": 0
+          },
+          "Branches": []
+        },
+        "System.Void Backend.Repository.AreaRepository::.ctor(Microsoft.EntityFrameworkCore.DbContext)": {
+          "Lines": {
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Google Drive\\Facultad\\ORT\\6-Diseño de Aplicaciones 2\\Tarea\\Backend\\Backend.Repository\\BackendContext.cs": {
+      "Backend.Repository.BackendContext": {
+        "Microsoft.EntityFrameworkCore.DbSet`1<Backend.Domain.User> Backend.Repository.BackendContext::get_Users()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<Backend.Domain.UserSession> Backend.Repository.BackendContext::get_Sessions()": {
+          "Lines": {
+            "14": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<Backend.Domain.Area> Backend.Repository.BackendContext::get_Areas()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<Backend.Domain.Topic> Backend.Repository.BackendContext::get_Topics()": {
+          "Lines": {
+            "16": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<Backend.Domain.TopicType> Backend.Repository.BackendContext::get_TopicTypes()": {
+          "Lines": {
+            "17": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<Backend.Domain.AdditionalField> Backend.Repository.BackendContext::get_AdditionalFields()": {
+          "Lines": {
+            "18": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<Backend.Domain.Request> Backend.Repository.BackendContext::get_Requests()": {
+          "Lines": {
+            "19": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<Backend.Domain.Applicant> Backend.Repository.BackendContext::get_Applicants()": {
+          "Lines": {
+            "20": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<Backend.Domain.AdditionalFieldData> Backend.Repository.BackendContext::get_AdditionalFieldsData()": {
+          "Lines": {
+            "21": 0
+          },
+          "Branches": []
+        },
+        "System.Void Backend.Repository.BackendContext::OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0
+          },
+          "Branches": []
+        },
+        "System.Void Backend.Repository.BackendContext::.ctor(Microsoft.EntityFrameworkCore.DbContextOptions)": {
+          "Lines": {
+            "23": 0,
+            "24": 0,
+            "25": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Google Drive\\Facultad\\ORT\\6-Diseño de Aplicaciones 2\\Tarea\\Backend\\Backend.Repository\\BaseRepository.cs": {
+      "Backend.Repository.BaseRepository`1": {
+        "Microsoft.EntityFrameworkCore.DbContext Backend.Repository.BaseRepository`1::get_Context()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.Void Backend.Repository.BaseRepository`1::Add(T)": {
+          "Lines": {
+            "13": 0,
+            "14": 0,
+            "15": 0
+          },
+          "Branches": []
+        },
+        "System.Void Backend.Repository.BaseRepository`1::Remove(T)": {
+          "Lines": {
+            "18": 0,
+            "19": 0,
+            "20": 0
+          },
+          "Branches": []
+        },
+        "System.Void Backend.Repository.BaseRepository`1::Update(T)": {
+          "Lines": {
+            "23": 0,
+            "24": 0,
+            "25": 0
+          },
+          "Branches": []
+        },
+        "System.Void Backend.Repository.BaseRepository`1::Save()": {
+          "Lines": {
+            "32": 0,
+            "33": 0,
+            "34": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Google Drive\\Facultad\\ORT\\6-Diseño de Aplicaciones 2\\Tarea\\Backend\\Backend.Repository\\RequestRepository.cs": {
+      "Backend.Repository.RequestRepository": {
+        "Backend.Domain.Request Backend.Repository.RequestRepository::Get(System.Guid)": {
+          "Lines": {
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<Backend.Domain.Request> Backend.Repository.RequestRepository::GetAll()": {
+          "Lines": {
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0
+          },
+          "Branches": []
+        },
+        "System.Void Backend.Repository.RequestRepository::.ctor(Microsoft.EntityFrameworkCore.DbContext)": {
+          "Lines": {
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Google Drive\\Facultad\\ORT\\6-Diseño de Aplicaciones 2\\Tarea\\Backend\\Backend.Repository\\SessionRepository.cs": {
+      "Backend.Repository.SessionRepository": {
+        "Backend.Domain.UserSession Backend.Repository.SessionRepository::Get(System.Guid)": {
+          "Lines": {
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<Backend.Domain.UserSession> Backend.Repository.SessionRepository::GetAll()": {
+          "Lines": {
+            "23": 0,
+            "24": 0,
+            "25": 0
+          },
+          "Branches": []
+        },
+        "System.Void Backend.Repository.SessionRepository::.ctor(Microsoft.EntityFrameworkCore.DbContext)": {
+          "Lines": {
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Google Drive\\Facultad\\ORT\\6-Diseño de Aplicaciones 2\\Tarea\\Backend\\Backend.Repository\\TopicRepository.cs": {
+      "Backend.Repository.TopicRepository": {
+        "Backend.Domain.Topic Backend.Repository.TopicRepository::Get(System.Guid)": {
+          "Lines": {
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<Backend.Domain.Topic> Backend.Repository.TopicRepository::GetAll()": {
+          "Lines": {
+            "23": 0,
+            "24": 0,
+            "25": 0
+          },
+          "Branches": []
+        },
+        "System.Void Backend.Repository.TopicRepository::.ctor(Microsoft.EntityFrameworkCore.DbContext)": {
+          "Lines": {
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Google Drive\\Facultad\\ORT\\6-Diseño de Aplicaciones 2\\Tarea\\Backend\\Backend.Repository\\TopicTypeRepository.cs": {
+      "Backend.Repository.TopicTypeRepository": {
+        "Backend.Domain.TopicType Backend.Repository.TopicTypeRepository::Get(System.Guid)": {
+          "Lines": {
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<Backend.Domain.TopicType> Backend.Repository.TopicTypeRepository::GetAll()": {
+          "Lines": {
+            "24": 0,
+            "25": 0,
+            "26": 0
+          },
+          "Branches": []
+        },
+        "System.Void Backend.Repository.TopicTypeRepository::.ctor(Microsoft.EntityFrameworkCore.DbContext)": {
+          "Lines": {
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Google Drive\\Facultad\\ORT\\6-Diseño de Aplicaciones 2\\Tarea\\Backend\\Backend.Repository\\UserRepository.cs": {
+      "Backend.Repository.UserRepository": {
+        "Backend.Domain.User Backend.Repository.UserRepository::Get(System.Guid)": {
+          "Lines": {
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<Backend.Domain.User> Backend.Repository.UserRepository::GetAll()": {
+          "Lines": {
+            "23": 0,
+            "24": 0,
+            "25": 0
+          },
+          "Branches": []
+        },
+        "System.Void Backend.Repository.UserRepository::.ctor(Microsoft.EntityFrameworkCore.DbContext)": {
+          "Lines": {
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Google Drive\\Facultad\\ORT\\6-Diseño de Aplicaciones 2\\Tarea\\Backend\\Backend.Repository\\Migrations\\20200527204619_v2dfffff.cs": {
+      "Backend.Repository.Migrations.v2dfffff": {
+        "System.Void Backend.Repository.Migrations.v2dfffff::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "145": 0,
+            "146": 0,
+            "147": 0,
+            "148": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0,
+            "155": 0,
+            "157": 0,
+            "158": 0,
+            "159": 0,
+            "160": 0,
+            "161": 0,
+            "162": 0,
+            "163": 0,
+            "164": 0,
+            "165": 0,
+            "166": 0,
+            "167": 0,
+            "168": 0,
+            "169": 0,
+            "170": 0,
+            "171": 0,
+            "172": 0,
+            "173": 0,
+            "174": 0,
+            "175": 0,
+            "176": 0,
+            "177": 0,
+            "178": 0,
+            "179": 0,
+            "180": 0,
+            "181": 0,
+            "183": 0,
+            "184": 0,
+            "185": 0,
+            "186": 0,
+            "188": 0,
+            "189": 0,
+            "190": 0,
+            "191": 0,
+            "193": 0,
+            "194": 0,
+            "195": 0,
+            "196": 0,
+            "198": 0,
+            "199": 0,
+            "200": 0,
+            "201": 0,
+            "203": 0,
+            "204": 0,
+            "205": 0,
+            "206": 0,
+            "208": 0,
+            "209": 0,
+            "210": 0,
+            "211": 0,
+            "213": 0,
+            "214": 0,
+            "215": 0,
+            "216": 0,
+            "218": 0,
+            "219": 0,
+            "220": 0,
+            "221": 0,
+            "222": 0
+          },
+          "Branches": []
+        },
+        "System.Void Backend.Repository.Migrations.v2dfffff::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "225": 0,
+            "226": 0,
+            "227": 0,
+            "229": 0,
+            "230": 0,
+            "232": 0,
+            "233": 0,
+            "235": 0,
+            "236": 0,
+            "238": 0,
+            "239": 0,
+            "241": 0,
+            "242": 0,
+            "244": 0,
+            "245": 0,
+            "247": 0,
+            "248": 0,
+            "250": 0,
+            "251": 0,
+            "252": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Google Drive\\Facultad\\ORT\\6-Diseño de Aplicaciones 2\\Tarea\\Backend\\Backend.Repository\\Migrations\\20200527204619_v2dfffff.Designer.cs": {
+      "Backend.Repository.Migrations.v2dfffff": {
+        "System.Void Backend.Repository.Migrations.v2dfffff::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "17": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "140": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "145": 0,
+            "146": 0,
+            "147": 0,
+            "148": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0,
+            "155": 0,
+            "156": 0,
+            "157": 0,
+            "159": 0,
+            "160": 0,
+            "161": 0,
+            "162": 0,
+            "163": 0,
+            "164": 0,
+            "165": 0,
+            "166": 0,
+            "167": 0,
+            "168": 0,
+            "169": 0,
+            "170": 0,
+            "171": 0,
+            "172": 0,
+            "173": 0,
+            "174": 0,
+            "175": 0,
+            "176": 0,
+            "178": 0,
+            "179": 0,
+            "180": 0,
+            "181": 0,
+            "182": 0,
+            "183": 0,
+            "184": 0,
+            "185": 0,
+            "186": 0,
+            "187": 0,
+            "188": 0,
+            "189": 0,
+            "190": 0,
+            "191": 0,
+            "192": 0,
+            "193": 0,
+            "194": 0,
+            "195": 0,
+            "196": 0,
+            "198": 0,
+            "199": 0,
+            "200": 0,
+            "201": 0,
+            "202": 0,
+            "203": 0,
+            "204": 0,
+            "205": 0,
+            "206": 0,
+            "207": 0,
+            "208": 0,
+            "209": 0,
+            "210": 0,
+            "211": 0,
+            "212": 0,
+            "213": 0,
+            "214": 0,
+            "215": 0,
+            "217": 0,
+            "218": 0,
+            "219": 0,
+            "220": 0,
+            "221": 0,
+            "222": 0,
+            "224": 0,
+            "225": 0,
+            "226": 0,
+            "227": 0,
+            "228": 0,
+            "229": 0,
+            "230": 0,
+            "231": 0,
+            "232": 0,
+            "233": 0,
+            "235": 0,
+            "236": 0,
+            "237": 0,
+            "238": 0,
+            "239": 0,
+            "240": 0,
+            "241": 0,
+            "242": 0,
+            "243": 0,
+            "244": 0,
+            "245": 0,
+            "247": 0,
+            "248": 0,
+            "249": 0,
+            "250": 0,
+            "251": 0,
+            "252": 0,
+            "254": 0,
+            "255": 0,
+            "256": 0,
+            "257": 0,
+            "258": 0,
+            "259": 0,
+            "261": 0,
+            "262": 0,
+            "263": 0,
+            "264": 0,
+            "265": 0,
+            "266": 0,
+            "268": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Google Drive\\Facultad\\ORT\\6-Diseño de Aplicaciones 2\\Tarea\\Backend\\Backend.Repository\\Migrations\\20200527213915_v112.cs": {
+      "Backend.Repository.Migrations.v112": {
+        "System.Void Backend.Repository.Migrations.v112::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0
+          },
+          "Branches": []
+        },
+        "System.Void Backend.Repository.Migrations.v112::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Google Drive\\Facultad\\ORT\\6-Diseño de Aplicaciones 2\\Tarea\\Backend\\Backend.Repository\\Migrations\\20200527213915_v112.Designer.cs": {
+      "Backend.Repository.Migrations.v112": {
+        "System.Void Backend.Repository.Migrations.v112::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "17": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "140": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "145": 0,
+            "146": 0,
+            "147": 0,
+            "148": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0,
+            "155": 0,
+            "156": 0,
+            "157": 0,
+            "159": 0,
+            "160": 0,
+            "161": 0,
+            "162": 0,
+            "163": 0,
+            "164": 0,
+            "165": 0,
+            "166": 0,
+            "167": 0,
+            "168": 0,
+            "169": 0,
+            "170": 0,
+            "171": 0,
+            "172": 0,
+            "173": 0,
+            "174": 0,
+            "175": 0,
+            "176": 0,
+            "177": 0,
+            "178": 0,
+            "179": 0,
+            "181": 0,
+            "182": 0,
+            "183": 0,
+            "184": 0,
+            "185": 0,
+            "186": 0,
+            "187": 0,
+            "188": 0,
+            "189": 0,
+            "190": 0,
+            "191": 0,
+            "192": 0,
+            "193": 0,
+            "194": 0,
+            "195": 0,
+            "196": 0,
+            "197": 0,
+            "198": 0,
+            "199": 0,
+            "201": 0,
+            "202": 0,
+            "203": 0,
+            "204": 0,
+            "205": 0,
+            "206": 0,
+            "207": 0,
+            "208": 0,
+            "209": 0,
+            "210": 0,
+            "211": 0,
+            "212": 0,
+            "213": 0,
+            "214": 0,
+            "215": 0,
+            "216": 0,
+            "217": 0,
+            "218": 0,
+            "220": 0,
+            "221": 0,
+            "222": 0,
+            "223": 0,
+            "224": 0,
+            "225": 0,
+            "227": 0,
+            "228": 0,
+            "229": 0,
+            "230": 0,
+            "231": 0,
+            "232": 0,
+            "233": 0,
+            "234": 0,
+            "235": 0,
+            "236": 0,
+            "238": 0,
+            "239": 0,
+            "240": 0,
+            "241": 0,
+            "242": 0,
+            "243": 0,
+            "244": 0,
+            "245": 0,
+            "246": 0,
+            "247": 0,
+            "248": 0,
+            "250": 0,
+            "251": 0,
+            "252": 0,
+            "253": 0,
+            "254": 0,
+            "255": 0,
+            "257": 0,
+            "258": 0,
+            "259": 0,
+            "260": 0,
+            "261": 0,
+            "262": 0,
+            "264": 0,
+            "265": 0,
+            "266": 0,
+            "267": 0,
+            "268": 0,
+            "269": 0,
+            "271": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Google Drive\\Facultad\\ORT\\6-Diseño de Aplicaciones 2\\Tarea\\Backend\\Backend.Repository\\Migrations\\20200527222154_v2a.cs": {
+      "Backend.Repository.Migrations.v2a": {
+        "System.Void Backend.Repository.Migrations.v2a::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0
+          },
+          "Branches": []
+        },
+        "System.Void Backend.Repository.Migrations.v2a::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Google Drive\\Facultad\\ORT\\6-Diseño de Aplicaciones 2\\Tarea\\Backend\\Backend.Repository\\Migrations\\20200527222154_v2a.Designer.cs": {
+      "Backend.Repository.Migrations.v2a": {
+        "System.Void Backend.Repository.Migrations.v2a::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "17": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "145": 0,
+            "146": 0,
+            "147": 0,
+            "148": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0,
+            "155": 0,
+            "156": 0,
+            "157": 0,
+            "158": 0,
+            "160": 0,
+            "161": 0,
+            "162": 0,
+            "163": 0,
+            "164": 0,
+            "165": 0,
+            "166": 0,
+            "167": 0,
+            "168": 0,
+            "169": 0,
+            "170": 0,
+            "171": 0,
+            "172": 0,
+            "173": 0,
+            "174": 0,
+            "175": 0,
+            "176": 0,
+            "177": 0,
+            "178": 0,
+            "179": 0,
+            "180": 0,
+            "182": 0,
+            "183": 0,
+            "184": 0,
+            "185": 0,
+            "186": 0,
+            "187": 0,
+            "188": 0,
+            "189": 0,
+            "190": 0,
+            "191": 0,
+            "192": 0,
+            "193": 0,
+            "194": 0,
+            "195": 0,
+            "196": 0,
+            "197": 0,
+            "198": 0,
+            "199": 0,
+            "200": 0,
+            "202": 0,
+            "203": 0,
+            "204": 0,
+            "205": 0,
+            "206": 0,
+            "207": 0,
+            "208": 0,
+            "209": 0,
+            "210": 0,
+            "211": 0,
+            "212": 0,
+            "213": 0,
+            "214": 0,
+            "215": 0,
+            "216": 0,
+            "217": 0,
+            "218": 0,
+            "219": 0,
+            "221": 0,
+            "222": 0,
+            "223": 0,
+            "224": 0,
+            "225": 0,
+            "226": 0,
+            "228": 0,
+            "229": 0,
+            "230": 0,
+            "231": 0,
+            "232": 0,
+            "233": 0,
+            "234": 0,
+            "235": 0,
+            "236": 0,
+            "237": 0,
+            "239": 0,
+            "240": 0,
+            "241": 0,
+            "242": 0,
+            "243": 0,
+            "244": 0,
+            "245": 0,
+            "246": 0,
+            "248": 0,
+            "249": 0,
+            "250": 0,
+            "251": 0,
+            "252": 0,
+            "253": 0,
+            "254": 0,
+            "256": 0,
+            "257": 0,
+            "258": 0,
+            "259": 0,
+            "260": 0,
+            "261": 0,
+            "263": 0,
+            "264": 0,
+            "265": 0,
+            "266": 0,
+            "267": 0,
+            "268": 0,
+            "270": 0,
+            "271": 0,
+            "272": 0,
+            "273": 0,
+            "274": 0,
+            "275": 0,
+            "277": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Google Drive\\Facultad\\ORT\\6-Diseño de Aplicaciones 2\\Tarea\\Backend\\Backend.Repository\\Migrations\\20200527223432_v2b.cs": {
+      "Backend.Repository.Migrations.v2b": {
+        "System.Void Backend.Repository.Migrations.v2b::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0
+          },
+          "Branches": []
+        },
+        "System.Void Backend.Repository.Migrations.v2b::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Google Drive\\Facultad\\ORT\\6-Diseño de Aplicaciones 2\\Tarea\\Backend\\Backend.Repository\\Migrations\\20200527223432_v2b.Designer.cs": {
+      "Backend.Repository.Migrations.v2b": {
+        "System.Void Backend.Repository.Migrations.v2b::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "17": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "140": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "145": 0,
+            "146": 0,
+            "147": 0,
+            "148": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0,
+            "155": 0,
+            "156": 0,
+            "157": 0,
+            "159": 0,
+            "160": 0,
+            "161": 0,
+            "162": 0,
+            "163": 0,
+            "164": 0,
+            "165": 0,
+            "166": 0,
+            "167": 0,
+            "168": 0,
+            "169": 0,
+            "170": 0,
+            "171": 0,
+            "172": 0,
+            "173": 0,
+            "174": 0,
+            "175": 0,
+            "176": 0,
+            "177": 0,
+            "178": 0,
+            "179": 0,
+            "181": 0,
+            "182": 0,
+            "183": 0,
+            "184": 0,
+            "185": 0,
+            "186": 0,
+            "187": 0,
+            "188": 0,
+            "189": 0,
+            "190": 0,
+            "191": 0,
+            "192": 0,
+            "193": 0,
+            "194": 0,
+            "195": 0,
+            "196": 0,
+            "197": 0,
+            "198": 0,
+            "199": 0,
+            "201": 0,
+            "202": 0,
+            "203": 0,
+            "204": 0,
+            "205": 0,
+            "206": 0,
+            "207": 0,
+            "208": 0,
+            "209": 0,
+            "210": 0,
+            "211": 0,
+            "212": 0,
+            "213": 0,
+            "214": 0,
+            "215": 0,
+            "216": 0,
+            "217": 0,
+            "218": 0,
+            "220": 0,
+            "221": 0,
+            "222": 0,
+            "223": 0,
+            "224": 0,
+            "225": 0,
+            "227": 0,
+            "228": 0,
+            "229": 0,
+            "230": 0,
+            "231": 0,
+            "232": 0,
+            "233": 0,
+            "234": 0,
+            "235": 0,
+            "236": 0,
+            "238": 0,
+            "239": 0,
+            "240": 0,
+            "241": 0,
+            "242": 0,
+            "243": 0,
+            "244": 0,
+            "245": 0,
+            "246": 0,
+            "247": 0,
+            "248": 0,
+            "250": 0,
+            "251": 0,
+            "252": 0,
+            "253": 0,
+            "254": 0,
+            "255": 0,
+            "257": 0,
+            "258": 0,
+            "259": 0,
+            "260": 0,
+            "261": 0,
+            "262": 0,
+            "264": 0,
+            "265": 0,
+            "266": 0,
+            "267": 0,
+            "268": 0,
+            "269": 0,
+            "271": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Google Drive\\Facultad\\ORT\\6-Diseño de Aplicaciones 2\\Tarea\\Backend\\Backend.Repository\\Migrations\\20200603213724_v255.cs": {
+      "Backend.Repository.Migrations.v255": {
+        "System.Void Backend.Repository.Migrations.v255::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "8": 0,
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0
+          },
+          "Branches": []
+        },
+        "System.Void Backend.Repository.Migrations.v255::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Google Drive\\Facultad\\ORT\\6-Diseño de Aplicaciones 2\\Tarea\\Backend\\Backend.Repository\\Migrations\\20200603213724_v255.Designer.cs": {
+      "Backend.Repository.Migrations.v255": {
+        "System.Void Backend.Repository.Migrations.v255::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "17": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "143": 0,
+            "144": 0,
+            "145": 0,
+            "146": 0,
+            "147": 0,
+            "148": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0,
+            "155": 0,
+            "156": 0,
+            "157": 0,
+            "158": 0,
+            "159": 0,
+            "160": 0,
+            "162": 0,
+            "163": 0,
+            "164": 0,
+            "165": 0,
+            "166": 0,
+            "167": 0,
+            "168": 0,
+            "169": 0,
+            "170": 0,
+            "171": 0,
+            "172": 0,
+            "173": 0,
+            "174": 0,
+            "175": 0,
+            "176": 0,
+            "177": 0,
+            "178": 0,
+            "179": 0,
+            "180": 0,
+            "181": 0,
+            "182": 0,
+            "184": 0,
+            "185": 0,
+            "186": 0,
+            "187": 0,
+            "188": 0,
+            "189": 0,
+            "190": 0,
+            "191": 0,
+            "192": 0,
+            "193": 0,
+            "194": 0,
+            "195": 0,
+            "196": 0,
+            "197": 0,
+            "198": 0,
+            "199": 0,
+            "200": 0,
+            "201": 0,
+            "202": 0,
+            "204": 0,
+            "205": 0,
+            "206": 0,
+            "207": 0,
+            "208": 0,
+            "209": 0,
+            "210": 0,
+            "211": 0,
+            "212": 0,
+            "213": 0,
+            "214": 0,
+            "215": 0,
+            "216": 0,
+            "217": 0,
+            "218": 0,
+            "219": 0,
+            "220": 0,
+            "221": 0,
+            "223": 0,
+            "224": 0,
+            "225": 0,
+            "226": 0,
+            "227": 0,
+            "228": 0,
+            "230": 0,
+            "231": 0,
+            "232": 0,
+            "233": 0,
+            "234": 0,
+            "235": 0,
+            "236": 0,
+            "237": 0,
+            "238": 0,
+            "239": 0,
+            "241": 0,
+            "242": 0,
+            "243": 0,
+            "244": 0,
+            "245": 0,
+            "246": 0,
+            "247": 0,
+            "248": 0,
+            "249": 0,
+            "250": 0,
+            "251": 0,
+            "253": 0,
+            "254": 0,
+            "255": 0,
+            "256": 0,
+            "257": 0,
+            "258": 0,
+            "260": 0,
+            "261": 0,
+            "262": 0,
+            "263": 0,
+            "264": 0,
+            "265": 0,
+            "267": 0,
+            "268": 0,
+            "269": 0,
+            "270": 0,
+            "271": 0,
+            "272": 0,
+            "274": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Google Drive\\Facultad\\ORT\\6-Diseño de Aplicaciones 2\\Tarea\\Backend\\Backend.Repository\\Migrations\\BackendContextModelSnapshot.cs": {
+      "Backend.Repository.Migrations.BackendContextModelSnapshot": {
+        "System.Void Backend.Repository.Migrations.BackendContextModelSnapshot::BuildModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "15": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "145": 0,
+            "146": 0,
+            "147": 0,
+            "148": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0,
+            "155": 0,
+            "156": 0,
+            "157": 0,
+            "158": 0,
+            "160": 0,
+            "161": 0,
+            "162": 0,
+            "163": 0,
+            "164": 0,
+            "165": 0,
+            "166": 0,
+            "167": 0,
+            "168": 0,
+            "169": 0,
+            "170": 0,
+            "171": 0,
+            "172": 0,
+            "173": 0,
+            "174": 0,
+            "175": 0,
+            "176": 0,
+            "177": 0,
+            "178": 0,
+            "179": 0,
+            "180": 0,
+            "182": 0,
+            "183": 0,
+            "184": 0,
+            "185": 0,
+            "186": 0,
+            "187": 0,
+            "188": 0,
+            "189": 0,
+            "190": 0,
+            "191": 0,
+            "192": 0,
+            "193": 0,
+            "194": 0,
+            "195": 0,
+            "196": 0,
+            "197": 0,
+            "198": 0,
+            "199": 0,
+            "200": 0,
+            "202": 0,
+            "203": 0,
+            "204": 0,
+            "205": 0,
+            "206": 0,
+            "207": 0,
+            "208": 0,
+            "209": 0,
+            "210": 0,
+            "211": 0,
+            "212": 0,
+            "213": 0,
+            "214": 0,
+            "215": 0,
+            "216": 0,
+            "217": 0,
+            "218": 0,
+            "219": 0,
+            "221": 0,
+            "222": 0,
+            "223": 0,
+            "224": 0,
+            "225": 0,
+            "226": 0,
+            "228": 0,
+            "229": 0,
+            "230": 0,
+            "231": 0,
+            "232": 0,
+            "233": 0,
+            "234": 0,
+            "235": 0,
+            "236": 0,
+            "237": 0,
+            "239": 0,
+            "240": 0,
+            "241": 0,
+            "242": 0,
+            "243": 0,
+            "244": 0,
+            "245": 0,
+            "246": 0,
+            "247": 0,
+            "248": 0,
+            "249": 0,
+            "251": 0,
+            "252": 0,
+            "253": 0,
+            "254": 0,
+            "255": 0,
+            "256": 0,
+            "258": 0,
+            "259": 0,
+            "260": 0,
+            "261": 0,
+            "262": 0,
+            "263": 0,
+            "265": 0,
+            "266": 0,
+            "267": 0,
+            "268": 0,
+            "269": 0,
+            "270": 0,
+            "272": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "Backend.Repository.Interface.dll": {},
+  "Backend.Tools.dll": {
+    "D:\\Google Drive\\Facultad\\ORT\\6-Diseño de Aplicaciones 2\\Tarea\\Backend\\Backend.Tools\\BackendException.cs": {
+      "Backend.Tools.BackendException": {
+        "System.String[] Backend.Tools.BackendException::get_Args()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.Void Backend.Tools.BackendException::.ctor()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.Void Backend.Tools.BackendException::.ctor(System.String)": {
+          "Lines": {
+            "11": 120
+          },
+          "Branches": []
+        },
+        "System.Void Backend.Tools.BackendException::.ctor(System.String,System.String[])": {
+          "Lines": {
+            "13": 18,
+            "14": 18,
+            "15": 18,
+            "16": 18
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Google Drive\\Facultad\\ORT\\6-Diseño de Aplicaciones 2\\Tarea\\Backend\\Backend.Tools\\BackendExpectedException.cs": {
+      "Backend.Tools.BackendExpectedException": {
+        "System.Void Backend.Tools.BackendExpectedException::Verify(System.Exception)": {
+          "Lines": {
+            "24": 51,
+            "25": 51,
+            "27": 51,
+            "29": 51,
+            "30": 51,
+            "31": 51,
+            "32": 51,
+            "33": 51
+          },
+          "Branches": [
+            {
+              "Line": 29,
+              "Offset": 51,
+              "EndOffset": 53,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 51
+            },
+            {
+              "Line": 29,
+              "Offset": 51,
+              "EndOffset": 78,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 51
+            }
+          ]
+        },
+        "System.Void Backend.Tools.BackendExpectedException::.ctor(System.Type)": {
+          "Lines": {
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0
+          },
+          "Branches": []
+        },
+        "System.Void Backend.Tools.BackendExpectedException::.ctor(System.Type,System.String)": {
+          "Lines": {
+            "17": 255,
+            "18": 255,
+            "19": 255,
+            "20": 255,
+            "21": 255
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Google Drive\\Facultad\\ORT\\6-Diseño de Aplicaciones 2\\Tarea\\Backend\\Backend.Tools\\EmailValidation.cs": {
+      "Backend.Tools.EmailValidation": {
+        "System.Boolean Backend.Tools.EmailValidation::IsValid(System.String)": {
+          "Lines": {
+            "6": 13,
+            "8": 13,
+            "9": 13,
+            "10": 11,
+            "12": 2,
+            "13": 2,
+            "14": 2,
+            "16": 13
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "IMMRequestDataImport.dll": {
+    "D:\\Google Drive\\Facultad\\ORT\\6-Diseño de Aplicaciones 2\\Tarea\\IMMRequestDataImport\\domain\\DllInfo.cs": {
+      "IMMRequestDataImport.domain.DllInfo": {
+        "System.String IMMRequestDataImport.domain.DllInfo::get_Name()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.String IMMRequestDataImport.domain.DllInfo::get_Info()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<IMMRequestDataImport.domain.ImportField> IMMRequestDataImport.domain.DllInfo::get_fields()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Google Drive\\Facultad\\ORT\\6-Diseño de Aplicaciones 2\\Tarea\\IMMRequestDataImport\\domain\\ImportArea.cs": {
+      "IMMRequestDataImport.domain.ImportArea": {
+        "System.String IMMRequestDataImport.domain.ImportArea::get_Name()": {
+          "Lines": {
+            "8": 8
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<IMMRequestDataImport.domain.ImportTopic> IMMRequestDataImport.domain.ImportArea::get_Topics()": {
+          "Lines": {
+            "9": 19
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Google Drive\\Facultad\\ORT\\6-Diseño de Aplicaciones 2\\Tarea\\IMMRequestDataImport\\domain\\ImportField.cs": {
+      "IMMRequestDataImport.domain.ImportField": {
+        "System.Int32 IMMRequestDataImport.domain.ImportField::get_Id()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.String IMMRequestDataImport.domain.ImportField::get_Name()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.String IMMRequestDataImport.domain.ImportField::get_Data()": {
+          "Lines": {
+            "10": 4
+          },
+          "Branches": []
+        },
+        "System.String IMMRequestDataImport.domain.ImportField::get_Type()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<System.String> IMMRequestDataImport.domain.ImportField::get_Args()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Google Drive\\Facultad\\ORT\\6-Diseño de Aplicaciones 2\\Tarea\\IMMRequestDataImport\\domain\\ImportTopic.cs": {
+      "IMMRequestDataImport.domain.ImportTopic": {
+        "System.String IMMRequestDataImport.domain.ImportTopic::get_Name()": {
+          "Lines": {
+            "8": 14
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<IMMRequestDataImport.domain.ImportTopicType> IMMRequestDataImport.domain.ImportTopic::get_TopicTypes()": {
+          "Lines": {
+            "9": 30
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\Google Drive\\Facultad\\ORT\\6-Diseño de Aplicaciones 2\\Tarea\\IMMRequestDataImport\\domain\\ImportTopicType.cs": {
+      "IMMRequestDataImport.domain.ImportTopicType": {
+        "System.String IMMRequestDataImport.domain.ImportTopicType::get_Name()": {
+          "Lines": {
+            "8": 16
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Tarea.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:Tarea.WebApi.Controllers.AreasController.GetAllAreas">
+            <summary>
+            Shows all Areas.
+            </summary>
+        </member>
+        <member name="M:Tarea.WebApi.Controllers.AreasController.Get(System.Guid)">
+            <summary>
+            Shows a specific Area.
+            </summary>
+        </member>
+        <member name="M:Tarea.WebApi.Controllers.RequestsController.Post(Tarea.WebApi.Models.RequestModel)">
+            <summary>
+            Creates a new Request.
+            </summary>
+        </member>
+        <member name="M:Tarea.WebApi.Controllers.RequestsController.Get(System.Guid)">
+            <summary>
+            Shows a specific Request.
+            </summary>
+        </member>
+        <member name="M:Tarea.WebApi.Controllers.RequestsController.GetAll(System.String)">
+            <summary>
+            Shows all Requests.
+            </summary>
+        </member>
+        <member name="M:Tarea.WebApi.Controllers.RequestsController.Put(System.String,System.Guid,Tarea.WebApi.Models.RequestStatusModel)">
+            <summary>
+            Edits Request status and description.
+            </summary>
+        </member>
+        <member name="M:Tarea.WebApi.Controllers.SessionsController.Login(Tarea.WebApi.Models.LoginModel)">
+            <summary>
+            Login
+            </summary>
+        </member>
+        <member name="M:Tarea.WebApi.Controllers.SessionsController.Logout(System.Guid)">
+            <summary>
+            Logout
+            </summary>
+        </member>
+        <member name="M:Tarea.WebApi.Controllers.TopicsController.Get(System.Guid)">
+            <summary>
+            Shows a specific Topic.
+            </summary>
+        </member>
+        <member name="M:Tarea.WebApi.Controllers.TopicTypesController.Post(System.String,Tarea.WebApi.Models.TopicTypeModel)">
+            <summary>
+            Creates a new TopicType.
+            </summary>
+        </member>
+        <member name="M:Tarea.WebApi.Controllers.TopicTypesController.Get(System.Guid)">
+            <summary>
+            Shows a specific TopicType.
+            </summary>
+        </member>
+        <member name="M:Tarea.WebApi.Controllers.TopicTypesController.Delete(System.String,System.Guid)">
+            <summary>
+            Deletes a specific TopicType.
+            </summary>
+        </member>
+        <member name="M:Tarea.WebApi.Controllers.UsersController.Post(System.String,Tarea.WebApi.Models.UserModel)">
+            <summary>
+            Creates a new User.
+            </summary>        
+        </member>
+        <member name="M:Tarea.WebApi.Controllers.UsersController.Get(System.String,System.Guid)">
+            <summary>
+            Shows a specific User.
+            </summary>         
+        </member>
+        <member name="M:Tarea.WebApi.Controllers.UsersController.GetAll(System.String)">
+            <summary>
+            Shows all Users.
+            </summary>     
+        </member>
+        <member name="M:Tarea.WebApi.Controllers.UsersController.Put(System.String,System.Guid,Tarea.WebApi.Models.UserModel)">
+            <summary>
+            Edits a specific User.
+            </summary>  
+        </member>
+        <member name="M:Tarea.WebApi.Controllers.UsersController.Delete(System.String,System.Guid)">
+            <summary>
+            Deletes a specific User.
+            </summary>  
+        </member>
+    </members>
+</doc>

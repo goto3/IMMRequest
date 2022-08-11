@@ -1,0 +1,388 @@
+{
+	"info": {
+		"_postman_id": "e04cdcde-d11e-451d-b1c4-9ff069edd1f2",
+		"name": "Tarea DA2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"details\": \"Request 1\",\r\n  \"applicant\": {\r\n    \"name\": \"Applicant name\",\r\n    \"email\": \"email@domain.com\",\r\n    \"phoneNumber\": \"123456\"\r\n  },\r\n  \"topicType\": \"2187B716-F0C4-4789-499B-08D7F774D6CA\",\r\n  \"additionalFields\": [\r\n    {\r\n      \"additionalField\": \"029ec5cd-7ce1-4d97-6ade-08d7f774d6ca\",\r\n      \"data\": \"23/03/1994\"\r\n    },\r\n    {\r\n      \"additionalField\": \"8b8c06f2-9b8c-4a6d-6adf-08d7f774d6ca\",\r\n      \"data\": \"string\"\r\n    },\r\n    {\r\n      \"additionalField\": \"f2760dd8-c46a-476f-6ae0-08d7f774d6ca\",\r\n      \"data\": \"5\"\r\n    },\r\n    {\r\n      \"additionalField\": \"d7ac16b7-f3f9-4be8-6ae1-08d7f774d6ca\",\r\n      \"data\": \"Radio Taxi\"\r\n    }\r\n  ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/Requests",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"Requests"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all Requests",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Auth",
+						"value": "88EBD444-DCC1-4390-B271-A462B2AAEBED",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/Requests",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"Requests"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Request",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/Requests/4F35C8D8-5DEB-429E-9DE5-249E4D757F18",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"Requests",
+						"4F35C8D8-5DEB-429E-9DE5-249E4D757F18"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Request",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Auth",
+						"type": "text",
+						"value": "88EBD444-DCC1-4390-B271-A461B2AAEBED"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"status\" : \"In review\",\n\t\"statusDescription\" : \"hola\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/Requests/1B26CB6C-AC56-49D5-B85D-AAB1CB7FC8A2",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"Requests",
+						"1B26CB6C-AC56-49D5-B85D-AAB1CB7FC8A2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create TopicType",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Auth",
+						"value": "88EBD444-DCC1-4390-B271-A462B2AAEBED",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"topic\": \"DB169E20-121D-4321-8CB2-08D7F774D6C8\",\r\n  \"name\": \"Topic Type name 6\",\r\n  \"additionalFields\": [\r\n    {\r\n      \"name\": \"string\",\r\n      \"fieldType\": \"Date\",\r\n      \"possibleValues\": [\"23/03/1994\", \"23/03/2000\"]\r\n    }\r\n  ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/TopicTypes",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"TopicTypes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete TopicType",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Auth",
+						"value": "88EBD444-DCC1-4390-B271-A462B2AAEBED",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/TopicTypes/9BF4B3B5-22CF-4429-8CEC-E57A19A22E3B",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"TopicTypes",
+						"9BF4B3B5-22CF-4429-8CEC-E57A19A22E3B"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create user",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Auth",
+						"type": "text",
+						"value": "1977C91E-CB3A-4DFD-8588-124DA5950C03"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"email\" : \"asdsadas@email.com\",\n\t\"password\" : \"ddd\",\n\t\"name\" : \"\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/Users",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"Users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update user",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Auth",
+						"type": "text",
+						"value": "1977C91E-CB3A-4DFD-8588-124DA5950C03"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"email\" : \"newuser0@mail.com\",\n\t\"password\" : \"dddddddd\",\n\t\"name\" : \"\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/Users/DF21EEFE-1ECB-49DB-A976-86D24898A314",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"Users",
+						"DF21EEFE-1ECB-49DB-A976-86D24898A314"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete user",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Auth",
+						"type": "text",
+						"value": "1977C91E-CB3A-4DFD-8588-124DA5950C03"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/Users/DF21EEFE-1ECB-49DB-A976-86D24898A314",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"Users",
+						"DF21EEFE-1ECB-49DB-A976-86D24898A314"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\" : \"@mail.com\",\r\n  \"password\" : \"password\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/Sessions",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"Sessions"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Logout",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "token",
+						"value": "A13E5BC7-7591-4B6C-8C06-F6312228A899",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/Sessions",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"Sessions"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

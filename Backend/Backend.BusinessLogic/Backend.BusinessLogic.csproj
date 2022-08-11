@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Backend.Domain\Backend.Domain.csproj" />
+    <ProjectReference Include="..\Backend.Repository.Interface\Backend.Repository.Interface.csproj" />
+    <ProjectReference Include="..\Backend.BusinessLogic.Interface\Backend.BusinessLogic.Interface.csproj" />
+    <ProjectReference Include="..\Backend.Tools\Backend.Tools.csproj" />
+    <ProjectReference Include="..\..\IMMRequestDataImport\IMMRequestDataImport.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+</Project>

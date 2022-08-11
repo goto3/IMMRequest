@@ -1,0 +1,42 @@
+<ImportAreas>
+	<Areas>
+		<ImportArea>
+			<Name>XML Imorted Area 1</Name>
+			<Topics>
+				<ImportTopic>
+					<Name>XML Imorted Topic 1</Name>
+					<TopicTypes>
+						<ImportTopicType>
+							<Name>XML Imorted TopicType 1</Name>
+						</ImportTopicType>
+						<ImportTopicType>
+							<Name>XML Imorted TopicType 2</Name>
+						</ImportTopicType>
+					</TopicTypes>
+				</ImportTopic>
+				<ImportTopic>
+					<Name>XML Imorted Topic 2</Name>
+				</ImportTopic>
+			</Topics>
+		</ImportArea>
+		<ImportArea>
+			<Name>XML Imorted Area 2</Name>
+			<Topics>
+				<ImportTopic>
+					<Name>XML Imorted Topic 3</Name>
+					<TopicTypes>
+						<ImportTopicType>
+							<Name>XML Imorted TopicType 4</Name>
+						</ImportTopicType>
+						<ImportTopicType>
+							<Name>XML Imorted TopicType 5</Name>
+						</ImportTopicType>
+					</TopicTypes>
+				</ImportTopic>
+				<ImportTopic>
+					<Name>XML Imorted Topic 2</Name>
+				</ImportTopic>
+			</Topics>
+		</ImportArea>
+	</Areas>
+</ImportAreas>
